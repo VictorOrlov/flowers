@@ -1,0 +1,100 @@
+.ProjectCard
+  &.winner
+  border-radius: 2px
+  border: 1px solid rgba(0, 0, 0, 0.3)
+  height: 430px
+  margin-bottom: 20px
+  .works-list-item
+    position: relative
+    box-shadow: 0 0 1px black
+
+  &:hover
+    cursor: pointer
+    box-shadow: 0 0 3px black
+
+  .counter
+    display: inline-block
+  &__img
+    position: relative
+    height: 288px
+    overflow: hidden
+    border-top-left-radius: 2px
+    border-top-right-radius: 2px
+    background-color: azure
+    .voiceCount
+      height: 100px
+      width: 100px
+      position: absolute
+      top: 50%
+      margin-top: -50px
+      right: 50%
+      margin-right: -50px
+      background-image: url("../images/black_flower.svg")
+      opacity: 0.7
+    .value_voiceCount
+      position: absolute
+      text-align: center
+      width: 50px
+      font-family: OpenSansBold,Arial Black,Arial,sans-serif
+      font-size: 1.3rem
+      top: 50%
+      margin-top: -0.65rem
+      right: 48%
+      margin-right: -18px
+      color: white
+
+    .svg-icon
+      width:  96px
+      height: 96px
+      opacity: 0.75
+
+    .counter
+      // display: none
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate3d(-50%,-50%,0)
+      width: 96px
+      height: 96px
+      text-align: center
+      color: #000
+      line-height: 89px
+      font:
+        size: 16px
+
+      &.is-given
+        .svg-icon
+          fill: #000
+
+      .icon
+        height: 96px
+        width: 96px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate3d(-50%,-50%,0)
+        fill: white
+
+    .valign
+      position: absolute
+      color: white
+      left: 0
+      top: 0
+      width: 100%
+      margin:
+        top: 4px
+    // line-height: 96px
+
+    img
+      width: 100%
+
+  &__description
+    font-size: 12px
+    & .icon-wrapper
+      width: $request-icon-size
+      display: flex
+      justify-content: center
+
+
+
+

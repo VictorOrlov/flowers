@@ -1,0 +1,29 @@
+mutation createRequest(
+  $address: String!
+  $competition: String!
+  $description: String
+  $email: String!
+  $participantKind: ParticipantKind!
+  $participantName: String
+  $phone: String!
+  $photos: [String!]!
+  $longitude: Float
+  $latitude: Float
+) {
+  createRequest(
+    address: $address
+    competition: $competition
+    description: $description
+    email: $email
+    participantKind: $participantKind
+    participantName: $participantName
+    phone: $phone
+    photos: $photos
+    longitude: $longitude
+    latitude: $latitude
+  ) {
+    request {
+      ...RequestParts
+    }
+  }
+}

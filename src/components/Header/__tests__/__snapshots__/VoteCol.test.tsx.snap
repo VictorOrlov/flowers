@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render VoteCol Component with ... ... user.participant.request.state = approved 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+  staticContext={Object {}}
+>
+  <VoteCol
+    currentUser={
+      Object {
+        "email": "lol.tebeb@n.ru",
+        "id": 258,
+        "name": "Одобрен",
+        "participant": Object {
+          "name": "ООО УК \\"ЖКХ ДЕРБЫШКИ\\"",
+          "request": Object {
+            "address": "Батурина 18п",
+            "competition": Object {
+              "name": "Лучшие цветы на районе",
+            },
+            "description": "Почему белые розы похожи на пелемени?",
+            "participant": Object {
+              "name": "ООО УК \\"ЖКХ ДЕРБЫШКИ\\"",
+            },
+            "photos": Array [
+              Object {
+                "address": "https://i.pinimg.com/originals/e7/a9/a1/e7a9a19464b5768887c4dbb9b0b09119.gif",
+                "id": 1,
+              },
+              Object {
+                "address": "http://cloudmind.info/wp-content/uploads/2014/12/blue-water-lily-flower-flowers-hd-wallpaper-beautiful-gallery-hd1.jpg",
+                "id": 2,
+              },
+              Object {
+                "address": "https://www.madeira-web.com/images/latest-news/festaflor19-a.jpg",
+                "id": 3,
+              },
+              Object {
+                "address": "http://cloudmind.info/wp-content/uploads/2014/12/blue-water-lily-flower-flowers-hd-wallpaper-beautiful-gallery-hd1.jpg",
+                "id": 4,
+              },
+            ],
+            "state": "approved",
+          },
+        },
+        "phone": "8-987-2222-33-44",
+        "remainVoices": 7,
+        "roles": Array [
+          "member",
+        ],
+        "surname": "Зубенко",
+        "voices": Array [
+          117,
+          54,
+          200,
+          693,
+        ],
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      }
+    }
+    match={
+      Object {
+        "isExact": true,
+        "params": Object {},
+        "path": "/",
+        "url": "/",
+      }
+    }
+    requestsCount={1234}
+    voicesCount={7777}
+  >
+    <div
+      className="col-12 col-sm-6 col-md-5"
+    >
+      <div
+        className="vote_column"
+      >
+        <div
+          className="vote"
+        >
+          <h3
+            className="vote_title"
+          >
+            на текущий момент подано
+          </h3>
+          <p>
+            <span
+              className="vote_counter"
+            >
+              1234
+               
+            </span>
+            <span
+              className="vote_unit"
+            >
+              заявок
+            </span>
+          </p>
+          <h3
+            className="vote_title"
+          >
+            проголосовало
+          </h3>
+          <p>
+            <span
+              className="vote_counter"
+            >
+              7777
+               
+            </span>
+            <span
+              className="vote_unit"
+            >
+              жителя города
+            </span>
+          </p>
+          <div
+            className="new_nomination"
+          >
+            <ButtonLink
+              check={false}
+              danger={false}
+              success={true}
+              to="/"
+            >
+              <Link
+                className="buttonLink button_expandet button_success"
+                to="/"
+              >
+                <a
+                  className="buttonLink button_expandet button_success"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  <span>
+                     
+                    Голосовать
+                     
+                  </span>
+                </a>
+              </Link>
+            </ButtonLink>
+          </div>
+          <div
+            className="new_nomination"
+          >
+            <ButtonLink
+              check={false}
+              danger={true}
+              success={false}
+              to="/flowerfest"
+            >
+              <Link
+                className="buttonLink button_expandet button_danger"
+                to="/flowerfest"
+              >
+                <a
+                  className="buttonLink button_expandet button_danger"
+                  href="/flowerfest"
+                  onClick={[Function]}
+                >
+                  <span>
+                     
+                    "Цветочный фестиваль"
+                  </span>
+                </a>
+              </Link>
+            </ButtonLink>
+          </div>
+        </div>
+      </div>
+    </div>
+  </VoteCol>
+</Router>
+`;

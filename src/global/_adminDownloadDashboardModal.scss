@@ -1,0 +1,16 @@
+.adminDownloadDashboardModal {
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.904);
+  z-index: 999;
+  align-items: center;
+  &_children {
+    height: 80%;
+    background-color: #fff;
+  }
+}

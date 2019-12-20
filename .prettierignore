@@ -1,0 +1,20 @@
+# git
+.github
+**/.gitattributes
+
+# editors
+.vscode
+*.un~
+*.swp
+
+# NPM
+**/node_modules
+
+# ext to ignore
+**/*.svg
+**/*.png
+**/*.jpg
+**/.DS_Store
+**/*.sass
+**/*.test.tsx
+**/*.snap

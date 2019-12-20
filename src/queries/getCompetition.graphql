@@ -1,0 +1,7 @@
+query Competitions {
+  competitions {
+    id
+    kind
+    name
+  }
+}

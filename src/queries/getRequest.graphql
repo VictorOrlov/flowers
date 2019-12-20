@@ -1,0 +1,5 @@
+query Request($id: Int!) {
+  request(id: $id) {
+    ...RequestParts
+  }
+}

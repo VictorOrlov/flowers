@@ -1,0 +1,3888 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly HomePage component 1`] = `
+Array [
+  <FilterForm
+    competitions={
+      Array [
+        Object {
+          "id": 3,
+          "kind": "open",
+          "name": "Лучшее оформление фасада",
+        },
+        Object {
+          "id": 4,
+          "kind": "open",
+          "name": "Лучшее оформление дворовой территории",
+        },
+        Object {
+          "id": 5,
+          "kind": "open",
+          "name": "Лучшее оформление прилегающей территории для организаций и предприятий",
+        },
+        Object {
+          "id": 6,
+          "kind": "open",
+          "name": "Самая оригинальная цветочная композиция",
+        },
+        Object {
+          "id": 7,
+          "kind": "open",
+          "name": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+        },
+        Object {
+          "id": 10,
+          "kind": "open",
+          "name": "Лучший цветочный кадр в городской среде",
+        },
+      ]
+    }
+    isTest={true}
+    onSubmit={[Function]}
+  >
+    <Form
+      ErrorList={[Function]}
+      className="wrapper_rjsf"
+      disabled={false}
+      liveValidate={false}
+      noHtml5Validate={false}
+      noValidate={false}
+      omitExtraData={false}
+      onSubmit={[Function]}
+      safeRenderCompletion={false}
+      schema={
+        Object {
+          "properties": Object {
+            "competition": Object {
+              "anyOf": Array [
+                Object {
+                  "enum": Array [
+                    "3",
+                  ],
+                  "title": "Лучшее оформление фасада",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "4",
+                  ],
+                  "title": "Лучшее оформление дворовой территории",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "5",
+                  ],
+                  "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "6",
+                  ],
+                  "title": "Самая оригинальная цветочная композиция",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "7",
+                  ],
+                  "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "10",
+                  ],
+                  "title": "Лучший цветочный кадр в городской среде",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "null",
+                  ],
+                  "title": "Все номинации",
+                  "type": "string",
+                },
+              ],
+              "title": "Выбор номинации",
+              "type": "string",
+            },
+            "search": Object {
+              "title": "Поиск...",
+              "type": "string",
+            },
+            "sort": Object {
+              "anyOf": Array [
+                Object {
+                  "enum": Array [
+                    "created_asc",
+                  ],
+                  "title": "дата: по возрастанию",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "created_desc",
+                  ],
+                  "title": "дата: по убыванию",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "raiting_asc",
+                  ],
+                  "title": "рейтинг: по возрастанию",
+                  "type": "string",
+                },
+                Object {
+                  "enum": Array [
+                    "raiting_desc",
+                  ],
+                  "title": "рейтинг: по убыванию",
+                  "type": "string",
+                },
+              ],
+              "title": "сортировать по:",
+              "type": "string",
+            },
+          },
+          "type": "object",
+        }
+      }
+      uiSchema={
+        Object {
+          "competition": Object {
+            "classNames": "form_input_competition",
+            "ui:options": Object {
+              "inline": true,
+            },
+            "ui:widget": "select",
+          },
+          "search": Object {
+            "classNames": "form_input_search",
+          },
+          "sort": Object {
+            "classNames": "form_radio_sort",
+            "ui:options": Object {
+              "inline": true,
+            },
+            "ui:widget": "select",
+          },
+        }
+      }
+    >
+      <form
+        className="wrapper_rjsf"
+        noValidate={false}
+        onSubmit={[Function]}
+      >
+        <SchemaField
+          autofocus={false}
+          disabled={false}
+          errorSchema={Object {}}
+          formData={Object {}}
+          idSchema={
+            Object {
+              "$id": "root",
+              "competition": Object {
+                "$id": "root_competition",
+              },
+              "search": Object {
+                "$id": "root_search",
+              },
+              "sort": Object {
+                "$id": "root_sort",
+              },
+            }
+          }
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          readonly={false}
+          registry={
+            Object {
+              "ArrayFieldTemplate": undefined,
+              "FieldTemplate": undefined,
+              "ObjectFieldTemplate": undefined,
+              "definitions": Object {},
+              "fields": Object {
+                "AnyOfField": [Function],
+                "ArrayField": [Function],
+                "BooleanField": [Function],
+                "DescriptionField": [Function],
+                "NullField": [Function],
+                "NumberField": [Function],
+                "ObjectField": [Function],
+                "OneOfField": [Function],
+                "SchemaField": [Function],
+                "StringField": [Function],
+                "TitleField": [Function],
+                "UnsupportedField": [Function],
+              },
+              "formContext": Object {},
+              "widgets": Object {
+                "AltDateTimeWidget": [Function],
+                "AltDateWidget": [Function],
+                "BaseInput": [Function],
+                "CheckboxWidget": [Function],
+                "CheckboxesWidget": [Function],
+                "ColorWidget": [Function],
+                "DateTimeWidget": [Function],
+                "DateWidget": [Function],
+                "EmailWidget": [Function],
+                "FileWidget": [Function],
+                "HiddenWidget": [Function],
+                "PasswordWidget": [Function],
+                "RadioWidget": [Function],
+                "RangeWidget": [Function],
+                "SelectWidget": [Function],
+                "TextWidget": [Function],
+                "TextareaWidget": [Function],
+                "URLWidget": [Function],
+                "UpDownWidget": [Function],
+              },
+            }
+          }
+          safeRenderCompletion={false}
+          schema={
+            Object {
+              "properties": Object {
+                "competition": Object {
+                  "anyOf": Array [
+                    Object {
+                      "enum": Array [
+                        "3",
+                      ],
+                      "title": "Лучшее оформление фасада",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "4",
+                      ],
+                      "title": "Лучшее оформление дворовой территории",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "5",
+                      ],
+                      "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "6",
+                      ],
+                      "title": "Самая оригинальная цветочная композиция",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "7",
+                      ],
+                      "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "10",
+                      ],
+                      "title": "Лучший цветочный кадр в городской среде",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "null",
+                      ],
+                      "title": "Все номинации",
+                      "type": "string",
+                    },
+                  ],
+                  "title": "Выбор номинации",
+                  "type": "string",
+                },
+                "search": Object {
+                  "title": "Поиск...",
+                  "type": "string",
+                },
+                "sort": Object {
+                  "anyOf": Array [
+                    Object {
+                      "enum": Array [
+                        "created_asc",
+                      ],
+                      "title": "дата: по возрастанию",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "created_desc",
+                      ],
+                      "title": "дата: по убыванию",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "raiting_asc",
+                      ],
+                      "title": "рейтинг: по возрастанию",
+                      "type": "string",
+                    },
+                    Object {
+                      "enum": Array [
+                        "raiting_desc",
+                      ],
+                      "title": "рейтинг: по убыванию",
+                      "type": "string",
+                    },
+                  ],
+                  "title": "сортировать по:",
+                  "type": "string",
+                },
+              },
+              "type": "object",
+            }
+          }
+          uiSchema={
+            Object {
+              "competition": Object {
+                "classNames": "form_input_competition",
+                "ui:options": Object {
+                  "inline": true,
+                },
+                "ui:widget": "select",
+              },
+              "search": Object {
+                "classNames": "form_input_search",
+              },
+              "sort": Object {
+                "classNames": "form_radio_sort",
+                "ui:options": Object {
+                  "inline": true,
+                },
+                "ui:widget": "select",
+              },
+            }
+          }
+        >
+          <DefaultTemplate
+            classNames="form-group field field-object"
+            description={
+              <DescriptionField
+                formContext={Object {}}
+                id="root__description"
+              />
+            }
+            disabled={false}
+            displayLabel={false}
+            errors={<ErrorList />}
+            fields={
+              Object {
+                "AnyOfField": [Function],
+                "ArrayField": [Function],
+                "BooleanField": [Function],
+                "DescriptionField": [Function],
+                "NullField": [Function],
+                "NumberField": [Function],
+                "ObjectField": [Function],
+                "OneOfField": [Function],
+                "SchemaField": [Function],
+                "StringField": [Function],
+                "TitleField": [Function],
+                "UnsupportedField": [Function],
+              }
+            }
+            formContext={Object {}}
+            help={<Help />}
+            hidden={false}
+            id="root"
+            readonly={false}
+            required={false}
+            schema={
+              Object {
+                "properties": Object {
+                  "competition": Object {
+                    "anyOf": Array [
+                      Object {
+                        "enum": Array [
+                          "3",
+                        ],
+                        "title": "Лучшее оформление фасада",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "4",
+                        ],
+                        "title": "Лучшее оформление дворовой территории",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "5",
+                        ],
+                        "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "6",
+                        ],
+                        "title": "Самая оригинальная цветочная композиция",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "7",
+                        ],
+                        "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "10",
+                        ],
+                        "title": "Лучший цветочный кадр в городской среде",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "null",
+                        ],
+                        "title": "Все номинации",
+                        "type": "string",
+                      },
+                    ],
+                    "title": "Выбор номинации",
+                    "type": "string",
+                  },
+                  "search": Object {
+                    "title": "Поиск...",
+                    "type": "string",
+                  },
+                  "sort": Object {
+                    "anyOf": Array [
+                      Object {
+                        "enum": Array [
+                          "created_asc",
+                        ],
+                        "title": "дата: по возрастанию",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "created_desc",
+                        ],
+                        "title": "дата: по убыванию",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "raiting_asc",
+                        ],
+                        "title": "рейтинг: по возрастанию",
+                        "type": "string",
+                      },
+                      Object {
+                        "enum": Array [
+                          "raiting_desc",
+                        ],
+                        "title": "рейтинг: по убыванию",
+                        "type": "string",
+                      },
+                    ],
+                    "title": "сортировать по:",
+                    "type": "string",
+                  },
+                },
+                "type": "object",
+              }
+            }
+            uiSchema={
+              Object {
+                "competition": Object {
+                  "classNames": "form_input_competition",
+                  "ui:options": Object {
+                    "inline": true,
+                  },
+                  "ui:widget": "select",
+                },
+                "search": Object {
+                  "classNames": "form_input_search",
+                },
+                "sort": Object {
+                  "classNames": "form_radio_sort",
+                  "ui:options": Object {
+                    "inline": true,
+                  },
+                  "ui:widget": "select",
+                },
+              }
+            }
+          >
+            <WrapIfAdditional
+              classNames="form-group field field-object"
+              description={
+                <DescriptionField
+                  formContext={Object {}}
+                  id="root__description"
+                />
+              }
+              disabled={false}
+              displayLabel={false}
+              errors={<ErrorList />}
+              fields={
+                Object {
+                  "AnyOfField": [Function],
+                  "ArrayField": [Function],
+                  "BooleanField": [Function],
+                  "DescriptionField": [Function],
+                  "NullField": [Function],
+                  "NumberField": [Function],
+                  "ObjectField": [Function],
+                  "OneOfField": [Function],
+                  "SchemaField": [Function],
+                  "StringField": [Function],
+                  "TitleField": [Function],
+                  "UnsupportedField": [Function],
+                }
+              }
+              formContext={Object {}}
+              help={<Help />}
+              hidden={false}
+              id="root"
+              readonly={false}
+              required={false}
+              schema={
+                Object {
+                  "properties": Object {
+                    "competition": Object {
+                      "anyOf": Array [
+                        Object {
+                          "enum": Array [
+                            "3",
+                          ],
+                          "title": "Лучшее оформление фасада",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "4",
+                          ],
+                          "title": "Лучшее оформление дворовой территории",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "5",
+                          ],
+                          "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "6",
+                          ],
+                          "title": "Самая оригинальная цветочная композиция",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "7",
+                          ],
+                          "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "10",
+                          ],
+                          "title": "Лучший цветочный кадр в городской среде",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "null",
+                          ],
+                          "title": "Все номинации",
+                          "type": "string",
+                        },
+                      ],
+                      "title": "Выбор номинации",
+                      "type": "string",
+                    },
+                    "search": Object {
+                      "title": "Поиск...",
+                      "type": "string",
+                    },
+                    "sort": Object {
+                      "anyOf": Array [
+                        Object {
+                          "enum": Array [
+                            "created_asc",
+                          ],
+                          "title": "дата: по возрастанию",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "created_desc",
+                          ],
+                          "title": "дата: по убыванию",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "raiting_asc",
+                          ],
+                          "title": "рейтинг: по возрастанию",
+                          "type": "string",
+                        },
+                        Object {
+                          "enum": Array [
+                            "raiting_desc",
+                          ],
+                          "title": "рейтинг: по убыванию",
+                          "type": "string",
+                        },
+                      ],
+                      "title": "сортировать по:",
+                      "type": "string",
+                    },
+                  },
+                  "type": "object",
+                }
+              }
+              uiSchema={
+                Object {
+                  "competition": Object {
+                    "classNames": "form_input_competition",
+                    "ui:options": Object {
+                      "inline": true,
+                    },
+                    "ui:widget": "select",
+                  },
+                  "search": Object {
+                    "classNames": "form_input_search",
+                  },
+                  "sort": Object {
+                    "classNames": "form_radio_sort",
+                    "ui:options": Object {
+                      "inline": true,
+                    },
+                    "ui:widget": "select",
+                  },
+                }
+              }
+            >
+              <div
+                className="form-group field field-object"
+              >
+                <ObjectField
+                  autofocus={false}
+                  disabled={false}
+                  errorSchema={Object {}}
+                  formContext={Object {}}
+                  formData={Object {}}
+                  idSchema={
+                    Object {
+                      "$id": "root",
+                      "competition": Object {
+                        "$id": "root_competition",
+                      },
+                      "search": Object {
+                        "$id": "root_search",
+                      },
+                      "sort": Object {
+                        "$id": "root_sort",
+                      },
+                    }
+                  }
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  readonly={false}
+                  registry={
+                    Object {
+                      "ArrayFieldTemplate": undefined,
+                      "FieldTemplate": undefined,
+                      "ObjectFieldTemplate": undefined,
+                      "definitions": Object {},
+                      "fields": Object {
+                        "AnyOfField": [Function],
+                        "ArrayField": [Function],
+                        "BooleanField": [Function],
+                        "DescriptionField": [Function],
+                        "NullField": [Function],
+                        "NumberField": [Function],
+                        "ObjectField": [Function],
+                        "OneOfField": [Function],
+                        "SchemaField": [Function],
+                        "StringField": [Function],
+                        "TitleField": [Function],
+                        "UnsupportedField": [Function],
+                      },
+                      "formContext": Object {},
+                      "widgets": Object {
+                        "AltDateTimeWidget": [Function],
+                        "AltDateWidget": [Function],
+                        "BaseInput": [Function],
+                        "CheckboxWidget": [Function],
+                        "CheckboxesWidget": [Function],
+                        "ColorWidget": [Function],
+                        "DateTimeWidget": [Function],
+                        "DateWidget": [Function],
+                        "EmailWidget": [Function],
+                        "FileWidget": [Function],
+                        "HiddenWidget": [Function],
+                        "PasswordWidget": [Function],
+                        "RadioWidget": [Function],
+                        "RangeWidget": [Function],
+                        "SelectWidget": [Function],
+                        "TextWidget": [Function],
+                        "TextareaWidget": [Function],
+                        "URLWidget": [Function],
+                        "UpDownWidget": [Function],
+                      },
+                    }
+                  }
+                  required={false}
+                  safeRenderCompletion={false}
+                  schema={
+                    Object {
+                      "properties": Object {
+                        "competition": Object {
+                          "anyOf": Array [
+                            Object {
+                              "enum": Array [
+                                "3",
+                              ],
+                              "title": "Лучшее оформление фасада",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "4",
+                              ],
+                              "title": "Лучшее оформление дворовой территории",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "5",
+                              ],
+                              "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "6",
+                              ],
+                              "title": "Самая оригинальная цветочная композиция",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "7",
+                              ],
+                              "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "10",
+                              ],
+                              "title": "Лучший цветочный кадр в городской среде",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "null",
+                              ],
+                              "title": "Все номинации",
+                              "type": "string",
+                            },
+                          ],
+                          "title": "Выбор номинации",
+                          "type": "string",
+                        },
+                        "search": Object {
+                          "title": "Поиск...",
+                          "type": "string",
+                        },
+                        "sort": Object {
+                          "anyOf": Array [
+                            Object {
+                              "enum": Array [
+                                "created_asc",
+                              ],
+                              "title": "дата: по возрастанию",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "created_desc",
+                              ],
+                              "title": "дата: по убыванию",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "raiting_asc",
+                              ],
+                              "title": "рейтинг: по возрастанию",
+                              "type": "string",
+                            },
+                            Object {
+                              "enum": Array [
+                                "raiting_desc",
+                              ],
+                              "title": "рейтинг: по убыванию",
+                              "type": "string",
+                            },
+                          ],
+                          "title": "сортировать по:",
+                          "type": "string",
+                        },
+                      },
+                      "type": "object",
+                    }
+                  }
+                  uiSchema={
+                    Object {
+                      "classNames": undefined,
+                      "competition": Object {
+                        "classNames": "form_input_competition",
+                        "ui:options": Object {
+                          "inline": true,
+                        },
+                        "ui:widget": "select",
+                      },
+                      "search": Object {
+                        "classNames": "form_input_search",
+                      },
+                      "sort": Object {
+                        "classNames": "form_radio_sort",
+                        "ui:options": Object {
+                          "inline": true,
+                        },
+                        "ui:widget": "select",
+                      },
+                    }
+                  }
+                >
+                  <DefaultObjectFieldTemplate
+                    DescriptionField={[Function]}
+                    TitleField={[Function]}
+                    disabled={false}
+                    formContext={Object {}}
+                    formData={Object {}}
+                    idSchema={
+                      Object {
+                        "$id": "root",
+                        "competition": Object {
+                          "$id": "root_competition",
+                        },
+                        "search": Object {
+                          "$id": "root_search",
+                        },
+                        "sort": Object {
+                          "$id": "root_sort",
+                        },
+                      }
+                    }
+                    onAddClick={[Function]}
+                    properties={
+                      Array [
+                        Object {
+                          "content": <SchemaField
+                            autofocus={false}
+                            disabled={false}
+                            errorSchema={Object {}}
+                            idSchema={
+                              Object {
+                                "$id": "root_search",
+                              }
+                            }
+                            name="search"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onDropPropertyClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyChange={[Function]}
+                            readonly={false}
+                            registry={
+                              Object {
+                                "ArrayFieldTemplate": undefined,
+                                "FieldTemplate": undefined,
+                                "ObjectFieldTemplate": undefined,
+                                "definitions": Object {},
+                                "fields": Object {
+                                  "AnyOfField": [Function],
+                                  "ArrayField": [Function],
+                                  "BooleanField": [Function],
+                                  "DescriptionField": [Function],
+                                  "NullField": [Function],
+                                  "NumberField": [Function],
+                                  "ObjectField": [Function],
+                                  "OneOfField": [Function],
+                                  "SchemaField": [Function],
+                                  "StringField": [Function],
+                                  "TitleField": [Function],
+                                  "UnsupportedField": [Function],
+                                },
+                                "formContext": Object {},
+                                "widgets": Object {
+                                  "AltDateTimeWidget": [Function],
+                                  "AltDateWidget": [Function],
+                                  "BaseInput": [Function],
+                                  "CheckboxWidget": [Function],
+                                  "CheckboxesWidget": [Function],
+                                  "ColorWidget": [Function],
+                                  "DateTimeWidget": [Function],
+                                  "DateWidget": [Function],
+                                  "EmailWidget": [Function],
+                                  "FileWidget": [Function],
+                                  "HiddenWidget": [Function],
+                                  "PasswordWidget": [Function],
+                                  "RadioWidget": [Function],
+                                  "RangeWidget": [Function],
+                                  "SelectWidget": [Function],
+                                  "TextWidget": [Function],
+                                  "TextareaWidget": [Function],
+                                  "URLWidget": [Function],
+                                  "UpDownWidget": [Function],
+                                },
+                              }
+                            }
+                            required={false}
+                            schema={
+                              Object {
+                                "title": "Поиск...",
+                                "type": "string",
+                              }
+                            }
+                            uiSchema={
+                              Object {
+                                "classNames": "form_input_search",
+                              }
+                            }
+                            wasPropertyKeyModified={false}
+                          />,
+                          "disabled": false,
+                          "name": "search",
+                          "readonly": false,
+                          "required": false,
+                        },
+                        Object {
+                          "content": <SchemaField
+                            autofocus={false}
+                            disabled={false}
+                            errorSchema={Object {}}
+                            idSchema={
+                              Object {
+                                "$id": "root_sort",
+                              }
+                            }
+                            name="sort"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onDropPropertyClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyChange={[Function]}
+                            readonly={false}
+                            registry={
+                              Object {
+                                "ArrayFieldTemplate": undefined,
+                                "FieldTemplate": undefined,
+                                "ObjectFieldTemplate": undefined,
+                                "definitions": Object {},
+                                "fields": Object {
+                                  "AnyOfField": [Function],
+                                  "ArrayField": [Function],
+                                  "BooleanField": [Function],
+                                  "DescriptionField": [Function],
+                                  "NullField": [Function],
+                                  "NumberField": [Function],
+                                  "ObjectField": [Function],
+                                  "OneOfField": [Function],
+                                  "SchemaField": [Function],
+                                  "StringField": [Function],
+                                  "TitleField": [Function],
+                                  "UnsupportedField": [Function],
+                                },
+                                "formContext": Object {},
+                                "widgets": Object {
+                                  "AltDateTimeWidget": [Function],
+                                  "AltDateWidget": [Function],
+                                  "BaseInput": [Function],
+                                  "CheckboxWidget": [Function],
+                                  "CheckboxesWidget": [Function],
+                                  "ColorWidget": [Function],
+                                  "DateTimeWidget": [Function],
+                                  "DateWidget": [Function],
+                                  "EmailWidget": [Function],
+                                  "FileWidget": [Function],
+                                  "HiddenWidget": [Function],
+                                  "PasswordWidget": [Function],
+                                  "RadioWidget": [Function],
+                                  "RangeWidget": [Function],
+                                  "SelectWidget": [Function],
+                                  "TextWidget": [Function],
+                                  "TextareaWidget": [Function],
+                                  "URLWidget": [Function],
+                                  "UpDownWidget": [Function],
+                                },
+                              }
+                            }
+                            required={false}
+                            schema={
+                              Object {
+                                "anyOf": Array [
+                                  Object {
+                                    "enum": Array [
+                                      "created_asc",
+                                    ],
+                                    "title": "дата: по возрастанию",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "created_desc",
+                                    ],
+                                    "title": "дата: по убыванию",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "raiting_asc",
+                                    ],
+                                    "title": "рейтинг: по возрастанию",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "raiting_desc",
+                                    ],
+                                    "title": "рейтинг: по убыванию",
+                                    "type": "string",
+                                  },
+                                ],
+                                "title": "сортировать по:",
+                                "type": "string",
+                              }
+                            }
+                            uiSchema={
+                              Object {
+                                "classNames": "form_radio_sort",
+                                "ui:options": Object {
+                                  "inline": true,
+                                },
+                                "ui:widget": "select",
+                              }
+                            }
+                            wasPropertyKeyModified={false}
+                          />,
+                          "disabled": false,
+                          "name": "sort",
+                          "readonly": false,
+                          "required": false,
+                        },
+                        Object {
+                          "content": <SchemaField
+                            autofocus={false}
+                            disabled={false}
+                            errorSchema={Object {}}
+                            idSchema={
+                              Object {
+                                "$id": "root_competition",
+                              }
+                            }
+                            name="competition"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onDropPropertyClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyChange={[Function]}
+                            readonly={false}
+                            registry={
+                              Object {
+                                "ArrayFieldTemplate": undefined,
+                                "FieldTemplate": undefined,
+                                "ObjectFieldTemplate": undefined,
+                                "definitions": Object {},
+                                "fields": Object {
+                                  "AnyOfField": [Function],
+                                  "ArrayField": [Function],
+                                  "BooleanField": [Function],
+                                  "DescriptionField": [Function],
+                                  "NullField": [Function],
+                                  "NumberField": [Function],
+                                  "ObjectField": [Function],
+                                  "OneOfField": [Function],
+                                  "SchemaField": [Function],
+                                  "StringField": [Function],
+                                  "TitleField": [Function],
+                                  "UnsupportedField": [Function],
+                                },
+                                "formContext": Object {},
+                                "widgets": Object {
+                                  "AltDateTimeWidget": [Function],
+                                  "AltDateWidget": [Function],
+                                  "BaseInput": [Function],
+                                  "CheckboxWidget": [Function],
+                                  "CheckboxesWidget": [Function],
+                                  "ColorWidget": [Function],
+                                  "DateTimeWidget": [Function],
+                                  "DateWidget": [Function],
+                                  "EmailWidget": [Function],
+                                  "FileWidget": [Function],
+                                  "HiddenWidget": [Function],
+                                  "PasswordWidget": [Function],
+                                  "RadioWidget": [Function],
+                                  "RangeWidget": [Function],
+                                  "SelectWidget": [Function],
+                                  "TextWidget": [Function],
+                                  "TextareaWidget": [Function],
+                                  "URLWidget": [Function],
+                                  "UpDownWidget": [Function],
+                                },
+                              }
+                            }
+                            required={false}
+                            schema={
+                              Object {
+                                "anyOf": Array [
+                                  Object {
+                                    "enum": Array [
+                                      "3",
+                                    ],
+                                    "title": "Лучшее оформление фасада",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "4",
+                                    ],
+                                    "title": "Лучшее оформление дворовой территории",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "5",
+                                    ],
+                                    "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "6",
+                                    ],
+                                    "title": "Самая оригинальная цветочная композиция",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "7",
+                                    ],
+                                    "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "10",
+                                    ],
+                                    "title": "Лучший цветочный кадр в городской среде",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "null",
+                                    ],
+                                    "title": "Все номинации",
+                                    "type": "string",
+                                  },
+                                ],
+                                "title": "Выбор номинации",
+                                "type": "string",
+                              }
+                            }
+                            uiSchema={
+                              Object {
+                                "classNames": "form_input_competition",
+                                "ui:options": Object {
+                                  "inline": true,
+                                },
+                                "ui:widget": "select",
+                              }
+                            }
+                            wasPropertyKeyModified={false}
+                          />,
+                          "disabled": false,
+                          "name": "competition",
+                          "readonly": false,
+                          "required": false,
+                        },
+                      ]
+                    }
+                    readonly={false}
+                    required={false}
+                    schema={
+                      Object {
+                        "properties": Object {
+                          "competition": Object {
+                            "anyOf": Array [
+                              Object {
+                                "enum": Array [
+                                  "3",
+                                ],
+                                "title": "Лучшее оформление фасада",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "4",
+                                ],
+                                "title": "Лучшее оформление дворовой территории",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "5",
+                                ],
+                                "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "6",
+                                ],
+                                "title": "Самая оригинальная цветочная композиция",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "7",
+                                ],
+                                "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "10",
+                                ],
+                                "title": "Лучший цветочный кадр в городской среде",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "null",
+                                ],
+                                "title": "Все номинации",
+                                "type": "string",
+                              },
+                            ],
+                            "title": "Выбор номинации",
+                            "type": "string",
+                          },
+                          "search": Object {
+                            "title": "Поиск...",
+                            "type": "string",
+                          },
+                          "sort": Object {
+                            "anyOf": Array [
+                              Object {
+                                "enum": Array [
+                                  "created_asc",
+                                ],
+                                "title": "дата: по возрастанию",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "created_desc",
+                                ],
+                                "title": "дата: по убыванию",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "raiting_asc",
+                                ],
+                                "title": "рейтинг: по возрастанию",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "raiting_desc",
+                                ],
+                                "title": "рейтинг: по убыванию",
+                                "type": "string",
+                              },
+                            ],
+                            "title": "сортировать по:",
+                            "type": "string",
+                          },
+                        },
+                        "type": "object",
+                      }
+                    }
+                    uiSchema={
+                      Object {
+                        "classNames": undefined,
+                        "competition": Object {
+                          "classNames": "form_input_competition",
+                          "ui:options": Object {
+                            "inline": true,
+                          },
+                          "ui:widget": "select",
+                        },
+                        "search": Object {
+                          "classNames": "form_input_search",
+                        },
+                        "sort": Object {
+                          "classNames": "form_radio_sort",
+                          "ui:options": Object {
+                            "inline": true,
+                          },
+                          "ui:widget": "select",
+                        },
+                      }
+                    }
+                  >
+                    <fieldset
+                      id="root"
+                    >
+                      <SchemaField
+                        autofocus={false}
+                        disabled={false}
+                        errorSchema={Object {}}
+                        idSchema={
+                          Object {
+                            "$id": "root_search",
+                          }
+                        }
+                        key="search"
+                        name="search"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onDropPropertyClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyChange={[Function]}
+                        readonly={false}
+                        registry={
+                          Object {
+                            "ArrayFieldTemplate": undefined,
+                            "FieldTemplate": undefined,
+                            "ObjectFieldTemplate": undefined,
+                            "definitions": Object {},
+                            "fields": Object {
+                              "AnyOfField": [Function],
+                              "ArrayField": [Function],
+                              "BooleanField": [Function],
+                              "DescriptionField": [Function],
+                              "NullField": [Function],
+                              "NumberField": [Function],
+                              "ObjectField": [Function],
+                              "OneOfField": [Function],
+                              "SchemaField": [Function],
+                              "StringField": [Function],
+                              "TitleField": [Function],
+                              "UnsupportedField": [Function],
+                            },
+                            "formContext": Object {},
+                            "widgets": Object {
+                              "AltDateTimeWidget": [Function],
+                              "AltDateWidget": [Function],
+                              "BaseInput": [Function],
+                              "CheckboxWidget": [Function],
+                              "CheckboxesWidget": [Function],
+                              "ColorWidget": [Function],
+                              "DateTimeWidget": [Function],
+                              "DateWidget": [Function],
+                              "EmailWidget": [Function],
+                              "FileWidget": [Function],
+                              "HiddenWidget": [Function],
+                              "PasswordWidget": [Function],
+                              "RadioWidget": [Function],
+                              "RangeWidget": [Function],
+                              "SelectWidget": [Function],
+                              "TextWidget": [Function],
+                              "TextareaWidget": [Function],
+                              "URLWidget": [Function],
+                              "UpDownWidget": [Function],
+                            },
+                          }
+                        }
+                        required={false}
+                        schema={
+                          Object {
+                            "title": "Поиск...",
+                            "type": "string",
+                          }
+                        }
+                        uiSchema={
+                          Object {
+                            "classNames": "form_input_search",
+                          }
+                        }
+                        wasPropertyKeyModified={false}
+                      >
+                        <DefaultTemplate
+                          classNames="form-group field field-string  form_input_search"
+                          description={
+                            <DescriptionField
+                              formContext={Object {}}
+                              id="root_search__description"
+                            />
+                          }
+                          disabled={false}
+                          displayLabel={true}
+                          errors={<ErrorList />}
+                          fields={
+                            Object {
+                              "AnyOfField": [Function],
+                              "ArrayField": [Function],
+                              "BooleanField": [Function],
+                              "DescriptionField": [Function],
+                              "NullField": [Function],
+                              "NumberField": [Function],
+                              "ObjectField": [Function],
+                              "OneOfField": [Function],
+                              "SchemaField": [Function],
+                              "StringField": [Function],
+                              "TitleField": [Function],
+                              "UnsupportedField": [Function],
+                            }
+                          }
+                          formContext={Object {}}
+                          help={<Help />}
+                          hidden={false}
+                          id="root_search"
+                          label="Поиск..."
+                          onDropPropertyClick={[Function]}
+                          onKeyChange={[Function]}
+                          readonly={false}
+                          required={false}
+                          schema={
+                            Object {
+                              "title": "Поиск...",
+                              "type": "string",
+                            }
+                          }
+                          uiSchema={
+                            Object {
+                              "classNames": "form_input_search",
+                            }
+                          }
+                        >
+                          <WrapIfAdditional
+                            classNames="form-group field field-string  form_input_search"
+                            description={
+                              <DescriptionField
+                                formContext={Object {}}
+                                id="root_search__description"
+                              />
+                            }
+                            disabled={false}
+                            displayLabel={true}
+                            errors={<ErrorList />}
+                            fields={
+                              Object {
+                                "AnyOfField": [Function],
+                                "ArrayField": [Function],
+                                "BooleanField": [Function],
+                                "DescriptionField": [Function],
+                                "NullField": [Function],
+                                "NumberField": [Function],
+                                "ObjectField": [Function],
+                                "OneOfField": [Function],
+                                "SchemaField": [Function],
+                                "StringField": [Function],
+                                "TitleField": [Function],
+                                "UnsupportedField": [Function],
+                              }
+                            }
+                            formContext={Object {}}
+                            help={<Help />}
+                            hidden={false}
+                            id="root_search"
+                            label="Поиск..."
+                            onDropPropertyClick={[Function]}
+                            onKeyChange={[Function]}
+                            readonly={false}
+                            required={false}
+                            schema={
+                              Object {
+                                "title": "Поиск...",
+                                "type": "string",
+                              }
+                            }
+                            uiSchema={
+                              Object {
+                                "classNames": "form_input_search",
+                              }
+                            }
+                          >
+                            <div
+                              className="form-group field field-string  form_input_search"
+                            >
+                              <Label
+                                id="root_search"
+                                label="Поиск..."
+                                required={false}
+                              >
+                                <label
+                                  className="control-label"
+                                  htmlFor="root_search"
+                                >
+                                  Поиск...
+                                </label>
+                              </Label>
+                              <DescriptionField
+                                formContext={Object {}}
+                                id="root_search__description"
+                              />
+                              <StringField
+                                autofocus={false}
+                                disabled={false}
+                                errorSchema={Object {}}
+                                formContext={Object {}}
+                                idSchema={
+                                  Object {
+                                    "$id": "root_search",
+                                  }
+                                }
+                                name="search"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onDropPropertyClick={[Function]}
+                                onFocus={[Function]}
+                                onKeyChange={[Function]}
+                                readonly={false}
+                                registry={
+                                  Object {
+                                    "ArrayFieldTemplate": undefined,
+                                    "FieldTemplate": undefined,
+                                    "ObjectFieldTemplate": undefined,
+                                    "definitions": Object {},
+                                    "fields": Object {
+                                      "AnyOfField": [Function],
+                                      "ArrayField": [Function],
+                                      "BooleanField": [Function],
+                                      "DescriptionField": [Function],
+                                      "NullField": [Function],
+                                      "NumberField": [Function],
+                                      "ObjectField": [Function],
+                                      "OneOfField": [Function],
+                                      "SchemaField": [Function],
+                                      "StringField": [Function],
+                                      "TitleField": [Function],
+                                      "UnsupportedField": [Function],
+                                    },
+                                    "formContext": Object {},
+                                    "widgets": Object {
+                                      "AltDateTimeWidget": [Function],
+                                      "AltDateWidget": [Function],
+                                      "BaseInput": [Function],
+                                      "CheckboxWidget": [Function],
+                                      "CheckboxesWidget": [Function],
+                                      "ColorWidget": [Function],
+                                      "DateTimeWidget": [Function],
+                                      "DateWidget": [Function],
+                                      "EmailWidget": [Function],
+                                      "FileWidget": [Function],
+                                      "HiddenWidget": [Function],
+                                      "PasswordWidget": [Function],
+                                      "RadioWidget": [Function],
+                                      "RangeWidget": [Function],
+                                      "SelectWidget": [Function],
+                                      "TextWidget": [Function],
+                                      "TextareaWidget": [Function],
+                                      "URLWidget": [Function],
+                                      "UpDownWidget": [Function],
+                                    },
+                                  }
+                                }
+                                required={false}
+                                schema={
+                                  Object {
+                                    "title": "Поиск...",
+                                    "type": "string",
+                                  }
+                                }
+                                uiSchema={
+                                  Object {
+                                    "classNames": undefined,
+                                  }
+                                }
+                                wasPropertyKeyModified={false}
+                              >
+                                <Component
+                                  autofocus={false}
+                                  disabled={false}
+                                  formContext={Object {}}
+                                  id="root_search"
+                                  label="Поиск..."
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onFocus={[Function]}
+                                  options={
+                                    Object {
+                                      "enumOptions": false,
+                                    }
+                                  }
+                                  placeholder=""
+                                  readonly={false}
+                                  registry={
+                                    Object {
+                                      "ArrayFieldTemplate": undefined,
+                                      "FieldTemplate": undefined,
+                                      "ObjectFieldTemplate": undefined,
+                                      "definitions": Object {},
+                                      "fields": Object {
+                                        "AnyOfField": [Function],
+                                        "ArrayField": [Function],
+                                        "BooleanField": [Function],
+                                        "DescriptionField": [Function],
+                                        "NullField": [Function],
+                                        "NumberField": [Function],
+                                        "ObjectField": [Function],
+                                        "OneOfField": [Function],
+                                        "SchemaField": [Function],
+                                        "StringField": [Function],
+                                        "TitleField": [Function],
+                                        "UnsupportedField": [Function],
+                                      },
+                                      "formContext": Object {},
+                                      "widgets": Object {
+                                        "AltDateTimeWidget": [Function],
+                                        "AltDateWidget": [Function],
+                                        "BaseInput": [Function],
+                                        "CheckboxWidget": [Function],
+                                        "CheckboxesWidget": [Function],
+                                        "ColorWidget": [Function],
+                                        "DateTimeWidget": [Function],
+                                        "DateWidget": [Function],
+                                        "EmailWidget": [Function],
+                                        "FileWidget": [Function],
+                                        "HiddenWidget": [Function],
+                                        "PasswordWidget": [Function],
+                                        "RadioWidget": [Function],
+                                        "RangeWidget": [Function],
+                                        "SelectWidget": [Function],
+                                        "TextWidget": [Function],
+                                        "TextareaWidget": [Function],
+                                        "URLWidget": [Function],
+                                        "UpDownWidget": [Function],
+                                      },
+                                    }
+                                  }
+                                  required={false}
+                                  schema={
+                                    Object {
+                                      "title": "Поиск...",
+                                      "type": "string",
+                                    }
+                                  }
+                                >
+                                  <TextWidget
+                                    autofocus={false}
+                                    disabled={false}
+                                    formContext={Object {}}
+                                    id="root_search"
+                                    label="Поиск..."
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    options={
+                                      Object {
+                                        "enumOptions": false,
+                                      }
+                                    }
+                                    placeholder=""
+                                    readonly={false}
+                                    registry={
+                                      Object {
+                                        "ArrayFieldTemplate": undefined,
+                                        "FieldTemplate": undefined,
+                                        "ObjectFieldTemplate": undefined,
+                                        "definitions": Object {},
+                                        "fields": Object {
+                                          "AnyOfField": [Function],
+                                          "ArrayField": [Function],
+                                          "BooleanField": [Function],
+                                          "DescriptionField": [Function],
+                                          "NullField": [Function],
+                                          "NumberField": [Function],
+                                          "ObjectField": [Function],
+                                          "OneOfField": [Function],
+                                          "SchemaField": [Function],
+                                          "StringField": [Function],
+                                          "TitleField": [Function],
+                                          "UnsupportedField": [Function],
+                                        },
+                                        "formContext": Object {},
+                                        "widgets": Object {
+                                          "AltDateTimeWidget": [Function],
+                                          "AltDateWidget": [Function],
+                                          "BaseInput": [Function],
+                                          "CheckboxWidget": [Function],
+                                          "CheckboxesWidget": [Function],
+                                          "ColorWidget": [Function],
+                                          "DateTimeWidget": [Function],
+                                          "DateWidget": [Function],
+                                          "EmailWidget": [Function],
+                                          "FileWidget": [Function],
+                                          "HiddenWidget": [Function],
+                                          "PasswordWidget": [Function],
+                                          "RadioWidget": [Function],
+                                          "RangeWidget": [Function],
+                                          "SelectWidget": [Function],
+                                          "TextWidget": [Function],
+                                          "TextareaWidget": [Function],
+                                          "URLWidget": [Function],
+                                          "UpDownWidget": [Function],
+                                        },
+                                      }
+                                    }
+                                    required={false}
+                                    schema={
+                                      Object {
+                                        "title": "Поиск...",
+                                        "type": "string",
+                                      }
+                                    }
+                                  >
+                                    <BaseInput
+                                      autofocus={false}
+                                      disabled={false}
+                                      formContext={Object {}}
+                                      id="root_search"
+                                      label="Поиск..."
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      options={
+                                        Object {
+                                          "enumOptions": false,
+                                        }
+                                      }
+                                      placeholder=""
+                                      readonly={false}
+                                      registry={
+                                        Object {
+                                          "ArrayFieldTemplate": undefined,
+                                          "FieldTemplate": undefined,
+                                          "ObjectFieldTemplate": undefined,
+                                          "definitions": Object {},
+                                          "fields": Object {
+                                            "AnyOfField": [Function],
+                                            "ArrayField": [Function],
+                                            "BooleanField": [Function],
+                                            "DescriptionField": [Function],
+                                            "NullField": [Function],
+                                            "NumberField": [Function],
+                                            "ObjectField": [Function],
+                                            "OneOfField": [Function],
+                                            "SchemaField": [Function],
+                                            "StringField": [Function],
+                                            "TitleField": [Function],
+                                            "UnsupportedField": [Function],
+                                          },
+                                          "formContext": Object {},
+                                          "widgets": Object {
+                                            "AltDateTimeWidget": [Function],
+                                            "AltDateWidget": [Function],
+                                            "BaseInput": [Function],
+                                            "CheckboxWidget": [Function],
+                                            "CheckboxesWidget": [Function],
+                                            "ColorWidget": [Function],
+                                            "DateTimeWidget": [Function],
+                                            "DateWidget": [Function],
+                                            "EmailWidget": [Function],
+                                            "FileWidget": [Function],
+                                            "HiddenWidget": [Function],
+                                            "PasswordWidget": [Function],
+                                            "RadioWidget": [Function],
+                                            "RangeWidget": [Function],
+                                            "SelectWidget": [Function],
+                                            "TextWidget": [Function],
+                                            "TextareaWidget": [Function],
+                                            "URLWidget": [Function],
+                                            "UpDownWidget": [Function],
+                                          },
+                                        }
+                                      }
+                                      required={false}
+                                      schema={
+                                        Object {
+                                          "title": "Поиск...",
+                                          "type": "string",
+                                        }
+                                      }
+                                    >
+                                      <input
+                                        autoFocus={false}
+                                        className="form-control"
+                                        disabled={false}
+                                        id="root_search"
+                                        label="Поиск..."
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onFocus={[Function]}
+                                        placeholder=""
+                                        readOnly={false}
+                                        required={false}
+                                        type="text"
+                                        value=""
+                                      />
+                                    </BaseInput>
+                                  </TextWidget>
+                                </Component>
+                              </StringField>
+                              <ErrorList />
+                              <Help />
+                            </div>
+                          </WrapIfAdditional>
+                        </DefaultTemplate>
+                      </SchemaField>
+                      <SchemaField
+                        autofocus={false}
+                        disabled={false}
+                        errorSchema={Object {}}
+                        idSchema={
+                          Object {
+                            "$id": "root_sort",
+                          }
+                        }
+                        key="sort"
+                        name="sort"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onDropPropertyClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyChange={[Function]}
+                        readonly={false}
+                        registry={
+                          Object {
+                            "ArrayFieldTemplate": undefined,
+                            "FieldTemplate": undefined,
+                            "ObjectFieldTemplate": undefined,
+                            "definitions": Object {},
+                            "fields": Object {
+                              "AnyOfField": [Function],
+                              "ArrayField": [Function],
+                              "BooleanField": [Function],
+                              "DescriptionField": [Function],
+                              "NullField": [Function],
+                              "NumberField": [Function],
+                              "ObjectField": [Function],
+                              "OneOfField": [Function],
+                              "SchemaField": [Function],
+                              "StringField": [Function],
+                              "TitleField": [Function],
+                              "UnsupportedField": [Function],
+                            },
+                            "formContext": Object {},
+                            "widgets": Object {
+                              "AltDateTimeWidget": [Function],
+                              "AltDateWidget": [Function],
+                              "BaseInput": [Function],
+                              "CheckboxWidget": [Function],
+                              "CheckboxesWidget": [Function],
+                              "ColorWidget": [Function],
+                              "DateTimeWidget": [Function],
+                              "DateWidget": [Function],
+                              "EmailWidget": [Function],
+                              "FileWidget": [Function],
+                              "HiddenWidget": [Function],
+                              "PasswordWidget": [Function],
+                              "RadioWidget": [Function],
+                              "RangeWidget": [Function],
+                              "SelectWidget": [Function],
+                              "TextWidget": [Function],
+                              "TextareaWidget": [Function],
+                              "URLWidget": [Function],
+                              "UpDownWidget": [Function],
+                            },
+                          }
+                        }
+                        required={false}
+                        schema={
+                          Object {
+                            "anyOf": Array [
+                              Object {
+                                "enum": Array [
+                                  "created_asc",
+                                ],
+                                "title": "дата: по возрастанию",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "created_desc",
+                                ],
+                                "title": "дата: по убыванию",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "raiting_asc",
+                                ],
+                                "title": "рейтинг: по возрастанию",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "raiting_desc",
+                                ],
+                                "title": "рейтинг: по убыванию",
+                                "type": "string",
+                              },
+                            ],
+                            "title": "сортировать по:",
+                            "type": "string",
+                          }
+                        }
+                        uiSchema={
+                          Object {
+                            "classNames": "form_radio_sort",
+                            "ui:options": Object {
+                              "inline": true,
+                            },
+                            "ui:widget": "select",
+                          }
+                        }
+                        wasPropertyKeyModified={false}
+                      >
+                        <DefaultTemplate
+                          classNames="form-group field field-string  form_radio_sort"
+                          description={
+                            <DescriptionField
+                              formContext={Object {}}
+                              id="root_sort__description"
+                            />
+                          }
+                          disabled={false}
+                          displayLabel={true}
+                          errors={<ErrorList />}
+                          fields={
+                            Object {
+                              "AnyOfField": [Function],
+                              "ArrayField": [Function],
+                              "BooleanField": [Function],
+                              "DescriptionField": [Function],
+                              "NullField": [Function],
+                              "NumberField": [Function],
+                              "ObjectField": [Function],
+                              "OneOfField": [Function],
+                              "SchemaField": [Function],
+                              "StringField": [Function],
+                              "TitleField": [Function],
+                              "UnsupportedField": [Function],
+                            }
+                          }
+                          formContext={Object {}}
+                          help={<Help />}
+                          hidden={false}
+                          id="root_sort"
+                          label="сортировать по:"
+                          onDropPropertyClick={[Function]}
+                          onKeyChange={[Function]}
+                          readonly={false}
+                          required={false}
+                          schema={
+                            Object {
+                              "anyOf": Array [
+                                Object {
+                                  "enum": Array [
+                                    "created_asc",
+                                  ],
+                                  "title": "дата: по возрастанию",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "created_desc",
+                                  ],
+                                  "title": "дата: по убыванию",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "raiting_asc",
+                                  ],
+                                  "title": "рейтинг: по возрастанию",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "raiting_desc",
+                                  ],
+                                  "title": "рейтинг: по убыванию",
+                                  "type": "string",
+                                },
+                              ],
+                              "title": "сортировать по:",
+                              "type": "string",
+                            }
+                          }
+                          uiSchema={
+                            Object {
+                              "classNames": "form_radio_sort",
+                              "ui:options": Object {
+                                "inline": true,
+                              },
+                              "ui:widget": "select",
+                            }
+                          }
+                        >
+                          <WrapIfAdditional
+                            classNames="form-group field field-string  form_radio_sort"
+                            description={
+                              <DescriptionField
+                                formContext={Object {}}
+                                id="root_sort__description"
+                              />
+                            }
+                            disabled={false}
+                            displayLabel={true}
+                            errors={<ErrorList />}
+                            fields={
+                              Object {
+                                "AnyOfField": [Function],
+                                "ArrayField": [Function],
+                                "BooleanField": [Function],
+                                "DescriptionField": [Function],
+                                "NullField": [Function],
+                                "NumberField": [Function],
+                                "ObjectField": [Function],
+                                "OneOfField": [Function],
+                                "SchemaField": [Function],
+                                "StringField": [Function],
+                                "TitleField": [Function],
+                                "UnsupportedField": [Function],
+                              }
+                            }
+                            formContext={Object {}}
+                            help={<Help />}
+                            hidden={false}
+                            id="root_sort"
+                            label="сортировать по:"
+                            onDropPropertyClick={[Function]}
+                            onKeyChange={[Function]}
+                            readonly={false}
+                            required={false}
+                            schema={
+                              Object {
+                                "anyOf": Array [
+                                  Object {
+                                    "enum": Array [
+                                      "created_asc",
+                                    ],
+                                    "title": "дата: по возрастанию",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "created_desc",
+                                    ],
+                                    "title": "дата: по убыванию",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "raiting_asc",
+                                    ],
+                                    "title": "рейтинг: по возрастанию",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "raiting_desc",
+                                    ],
+                                    "title": "рейтинг: по убыванию",
+                                    "type": "string",
+                                  },
+                                ],
+                                "title": "сортировать по:",
+                                "type": "string",
+                              }
+                            }
+                            uiSchema={
+                              Object {
+                                "classNames": "form_radio_sort",
+                                "ui:options": Object {
+                                  "inline": true,
+                                },
+                                "ui:widget": "select",
+                              }
+                            }
+                          >
+                            <div
+                              className="form-group field field-string  form_radio_sort"
+                            >
+                              <Label
+                                id="root_sort"
+                                label="сортировать по:"
+                                required={false}
+                              >
+                                <label
+                                  className="control-label"
+                                  htmlFor="root_sort"
+                                >
+                                  сортировать по:
+                                </label>
+                              </Label>
+                              <DescriptionField
+                                formContext={Object {}}
+                                id="root_sort__description"
+                              />
+                              <StringField
+                                autofocus={false}
+                                disabled={false}
+                                errorSchema={Object {}}
+                                formContext={Object {}}
+                                idSchema={
+                                  Object {
+                                    "$id": "root_sort",
+                                  }
+                                }
+                                name="sort"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onDropPropertyClick={[Function]}
+                                onFocus={[Function]}
+                                onKeyChange={[Function]}
+                                readonly={false}
+                                registry={
+                                  Object {
+                                    "ArrayFieldTemplate": undefined,
+                                    "FieldTemplate": undefined,
+                                    "ObjectFieldTemplate": undefined,
+                                    "definitions": Object {},
+                                    "fields": Object {
+                                      "AnyOfField": [Function],
+                                      "ArrayField": [Function],
+                                      "BooleanField": [Function],
+                                      "DescriptionField": [Function],
+                                      "NullField": [Function],
+                                      "NumberField": [Function],
+                                      "ObjectField": [Function],
+                                      "OneOfField": [Function],
+                                      "SchemaField": [Function],
+                                      "StringField": [Function],
+                                      "TitleField": [Function],
+                                      "UnsupportedField": [Function],
+                                    },
+                                    "formContext": Object {},
+                                    "widgets": Object {
+                                      "AltDateTimeWidget": [Function],
+                                      "AltDateWidget": [Function],
+                                      "BaseInput": [Function],
+                                      "CheckboxWidget": [Function],
+                                      "CheckboxesWidget": [Function],
+                                      "ColorWidget": [Function],
+                                      "DateTimeWidget": [Function],
+                                      "DateWidget": [Function],
+                                      "EmailWidget": [Function],
+                                      "FileWidget": [Function],
+                                      "HiddenWidget": [Function],
+                                      "PasswordWidget": [Function],
+                                      "RadioWidget": [Function],
+                                      "RangeWidget": [Function],
+                                      "SelectWidget": [Function],
+                                      "TextWidget": [Function],
+                                      "TextareaWidget": [Function],
+                                      "URLWidget": [Function],
+                                      "UpDownWidget": [Function],
+                                    },
+                                  }
+                                }
+                                required={false}
+                                schema={
+                                  Object {
+                                    "anyOf": Array [
+                                      Object {
+                                        "enum": Array [
+                                          "created_asc",
+                                        ],
+                                        "title": "дата: по возрастанию",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "created_desc",
+                                        ],
+                                        "title": "дата: по убыванию",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "raiting_asc",
+                                        ],
+                                        "title": "рейтинг: по возрастанию",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "raiting_desc",
+                                        ],
+                                        "title": "рейтинг: по убыванию",
+                                        "type": "string",
+                                      },
+                                    ],
+                                    "title": "сортировать по:",
+                                    "type": "string",
+                                  }
+                                }
+                                uiSchema={
+                                  Object {
+                                    "classNames": undefined,
+                                    "ui:options": Object {
+                                      "inline": true,
+                                    },
+                                    "ui:widget": "select",
+                                  }
+                                }
+                                wasPropertyKeyModified={false}
+                              >
+                                <Component
+                                  autofocus={false}
+                                  disabled={false}
+                                  formContext={Object {}}
+                                  id="root_sort"
+                                  label="сортировать по:"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onFocus={[Function]}
+                                  options={
+                                    Object {
+                                      "enumOptions": Array [
+                                        Object {
+                                          "label": "дата: по возрастанию",
+                                          "value": "created_asc",
+                                        },
+                                        Object {
+                                          "label": "дата: по убыванию",
+                                          "value": "created_desc",
+                                        },
+                                        Object {
+                                          "label": "рейтинг: по возрастанию",
+                                          "value": "raiting_asc",
+                                        },
+                                        Object {
+                                          "label": "рейтинг: по убыванию",
+                                          "value": "raiting_desc",
+                                        },
+                                      ],
+                                      "inline": true,
+                                    }
+                                  }
+                                  placeholder=""
+                                  readonly={false}
+                                  registry={
+                                    Object {
+                                      "ArrayFieldTemplate": undefined,
+                                      "FieldTemplate": undefined,
+                                      "ObjectFieldTemplate": undefined,
+                                      "definitions": Object {},
+                                      "fields": Object {
+                                        "AnyOfField": [Function],
+                                        "ArrayField": [Function],
+                                        "BooleanField": [Function],
+                                        "DescriptionField": [Function],
+                                        "NullField": [Function],
+                                        "NumberField": [Function],
+                                        "ObjectField": [Function],
+                                        "OneOfField": [Function],
+                                        "SchemaField": [Function],
+                                        "StringField": [Function],
+                                        "TitleField": [Function],
+                                        "UnsupportedField": [Function],
+                                      },
+                                      "formContext": Object {},
+                                      "widgets": Object {
+                                        "AltDateTimeWidget": [Function],
+                                        "AltDateWidget": [Function],
+                                        "BaseInput": [Function],
+                                        "CheckboxWidget": [Function],
+                                        "CheckboxesWidget": [Function],
+                                        "ColorWidget": [Function],
+                                        "DateTimeWidget": [Function],
+                                        "DateWidget": [Function],
+                                        "EmailWidget": [Function],
+                                        "FileWidget": [Function],
+                                        "HiddenWidget": [Function],
+                                        "PasswordWidget": [Function],
+                                        "RadioWidget": [Function],
+                                        "RangeWidget": [Function],
+                                        "SelectWidget": [Function],
+                                        "TextWidget": [Function],
+                                        "TextareaWidget": [Function],
+                                        "URLWidget": [Function],
+                                        "UpDownWidget": [Function],
+                                      },
+                                    }
+                                  }
+                                  required={false}
+                                  schema={
+                                    Object {
+                                      "anyOf": Array [
+                                        Object {
+                                          "enum": Array [
+                                            "created_asc",
+                                          ],
+                                          "title": "дата: по возрастанию",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "created_desc",
+                                          ],
+                                          "title": "дата: по убыванию",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "raiting_asc",
+                                          ],
+                                          "title": "рейтинг: по возрастанию",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "raiting_desc",
+                                          ],
+                                          "title": "рейтинг: по убыванию",
+                                          "type": "string",
+                                        },
+                                      ],
+                                      "title": "сортировать по:",
+                                      "type": "string",
+                                    }
+                                  }
+                                >
+                                  <SelectWidget
+                                    autofocus={false}
+                                    disabled={false}
+                                    formContext={Object {}}
+                                    id="root_sort"
+                                    label="сортировать по:"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    options={
+                                      Object {
+                                        "enumOptions": Array [
+                                          Object {
+                                            "label": "дата: по возрастанию",
+                                            "value": "created_asc",
+                                          },
+                                          Object {
+                                            "label": "дата: по убыванию",
+                                            "value": "created_desc",
+                                          },
+                                          Object {
+                                            "label": "рейтинг: по возрастанию",
+                                            "value": "raiting_asc",
+                                          },
+                                          Object {
+                                            "label": "рейтинг: по убыванию",
+                                            "value": "raiting_desc",
+                                          },
+                                        ],
+                                        "inline": true,
+                                      }
+                                    }
+                                    placeholder=""
+                                    readonly={false}
+                                    registry={
+                                      Object {
+                                        "ArrayFieldTemplate": undefined,
+                                        "FieldTemplate": undefined,
+                                        "ObjectFieldTemplate": undefined,
+                                        "definitions": Object {},
+                                        "fields": Object {
+                                          "AnyOfField": [Function],
+                                          "ArrayField": [Function],
+                                          "BooleanField": [Function],
+                                          "DescriptionField": [Function],
+                                          "NullField": [Function],
+                                          "NumberField": [Function],
+                                          "ObjectField": [Function],
+                                          "OneOfField": [Function],
+                                          "SchemaField": [Function],
+                                          "StringField": [Function],
+                                          "TitleField": [Function],
+                                          "UnsupportedField": [Function],
+                                        },
+                                        "formContext": Object {},
+                                        "widgets": Object {
+                                          "AltDateTimeWidget": [Function],
+                                          "AltDateWidget": [Function],
+                                          "BaseInput": [Function],
+                                          "CheckboxWidget": [Function],
+                                          "CheckboxesWidget": [Function],
+                                          "ColorWidget": [Function],
+                                          "DateTimeWidget": [Function],
+                                          "DateWidget": [Function],
+                                          "EmailWidget": [Function],
+                                          "FileWidget": [Function],
+                                          "HiddenWidget": [Function],
+                                          "PasswordWidget": [Function],
+                                          "RadioWidget": [Function],
+                                          "RangeWidget": [Function],
+                                          "SelectWidget": [Function],
+                                          "TextWidget": [Function],
+                                          "TextareaWidget": [Function],
+                                          "URLWidget": [Function],
+                                          "UpDownWidget": [Function],
+                                        },
+                                      }
+                                    }
+                                    required={false}
+                                    schema={
+                                      Object {
+                                        "anyOf": Array [
+                                          Object {
+                                            "enum": Array [
+                                              "created_asc",
+                                            ],
+                                            "title": "дата: по возрастанию",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "created_desc",
+                                            ],
+                                            "title": "дата: по убыванию",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "raiting_asc",
+                                            ],
+                                            "title": "рейтинг: по возрастанию",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "raiting_desc",
+                                            ],
+                                            "title": "рейтинг: по убыванию",
+                                            "type": "string",
+                                          },
+                                        ],
+                                        "title": "сортировать по:",
+                                        "type": "string",
+                                      }
+                                    }
+                                  >
+                                    <select
+                                      autoFocus={false}
+                                      className="form-control"
+                                      disabled={false}
+                                      id="root_sort"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      required={false}
+                                      value=""
+                                    >
+                                      <option
+                                        value=""
+                                      />
+                                      <option
+                                        key="0"
+                                        value="created_asc"
+                                      >
+                                        дата: по возрастанию
+                                      </option>
+                                      <option
+                                        key="1"
+                                        value="created_desc"
+                                      >
+                                        дата: по убыванию
+                                      </option>
+                                      <option
+                                        key="2"
+                                        value="raiting_asc"
+                                      >
+                                        рейтинг: по возрастанию
+                                      </option>
+                                      <option
+                                        key="3"
+                                        value="raiting_desc"
+                                      >
+                                        рейтинг: по убыванию
+                                      </option>
+                                    </select>
+                                  </SelectWidget>
+                                </Component>
+                              </StringField>
+                              <ErrorList />
+                              <Help />
+                            </div>
+                          </WrapIfAdditional>
+                        </DefaultTemplate>
+                      </SchemaField>
+                      <SchemaField
+                        autofocus={false}
+                        disabled={false}
+                        errorSchema={Object {}}
+                        idSchema={
+                          Object {
+                            "$id": "root_competition",
+                          }
+                        }
+                        key="competition"
+                        name="competition"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onDropPropertyClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyChange={[Function]}
+                        readonly={false}
+                        registry={
+                          Object {
+                            "ArrayFieldTemplate": undefined,
+                            "FieldTemplate": undefined,
+                            "ObjectFieldTemplate": undefined,
+                            "definitions": Object {},
+                            "fields": Object {
+                              "AnyOfField": [Function],
+                              "ArrayField": [Function],
+                              "BooleanField": [Function],
+                              "DescriptionField": [Function],
+                              "NullField": [Function],
+                              "NumberField": [Function],
+                              "ObjectField": [Function],
+                              "OneOfField": [Function],
+                              "SchemaField": [Function],
+                              "StringField": [Function],
+                              "TitleField": [Function],
+                              "UnsupportedField": [Function],
+                            },
+                            "formContext": Object {},
+                            "widgets": Object {
+                              "AltDateTimeWidget": [Function],
+                              "AltDateWidget": [Function],
+                              "BaseInput": [Function],
+                              "CheckboxWidget": [Function],
+                              "CheckboxesWidget": [Function],
+                              "ColorWidget": [Function],
+                              "DateTimeWidget": [Function],
+                              "DateWidget": [Function],
+                              "EmailWidget": [Function],
+                              "FileWidget": [Function],
+                              "HiddenWidget": [Function],
+                              "PasswordWidget": [Function],
+                              "RadioWidget": [Function],
+                              "RangeWidget": [Function],
+                              "SelectWidget": [Function],
+                              "TextWidget": [Function],
+                              "TextareaWidget": [Function],
+                              "URLWidget": [Function],
+                              "UpDownWidget": [Function],
+                            },
+                          }
+                        }
+                        required={false}
+                        schema={
+                          Object {
+                            "anyOf": Array [
+                              Object {
+                                "enum": Array [
+                                  "3",
+                                ],
+                                "title": "Лучшее оформление фасада",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "4",
+                                ],
+                                "title": "Лучшее оформление дворовой территории",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "5",
+                                ],
+                                "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "6",
+                                ],
+                                "title": "Самая оригинальная цветочная композиция",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "7",
+                                ],
+                                "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "10",
+                                ],
+                                "title": "Лучший цветочный кадр в городской среде",
+                                "type": "string",
+                              },
+                              Object {
+                                "enum": Array [
+                                  "null",
+                                ],
+                                "title": "Все номинации",
+                                "type": "string",
+                              },
+                            ],
+                            "title": "Выбор номинации",
+                            "type": "string",
+                          }
+                        }
+                        uiSchema={
+                          Object {
+                            "classNames": "form_input_competition",
+                            "ui:options": Object {
+                              "inline": true,
+                            },
+                            "ui:widget": "select",
+                          }
+                        }
+                        wasPropertyKeyModified={false}
+                      >
+                        <DefaultTemplate
+                          classNames="form-group field field-string  form_input_competition"
+                          description={
+                            <DescriptionField
+                              formContext={Object {}}
+                              id="root_competition__description"
+                            />
+                          }
+                          disabled={false}
+                          displayLabel={true}
+                          errors={<ErrorList />}
+                          fields={
+                            Object {
+                              "AnyOfField": [Function],
+                              "ArrayField": [Function],
+                              "BooleanField": [Function],
+                              "DescriptionField": [Function],
+                              "NullField": [Function],
+                              "NumberField": [Function],
+                              "ObjectField": [Function],
+                              "OneOfField": [Function],
+                              "SchemaField": [Function],
+                              "StringField": [Function],
+                              "TitleField": [Function],
+                              "UnsupportedField": [Function],
+                            }
+                          }
+                          formContext={Object {}}
+                          help={<Help />}
+                          hidden={false}
+                          id="root_competition"
+                          label="Выбор номинации"
+                          onDropPropertyClick={[Function]}
+                          onKeyChange={[Function]}
+                          readonly={false}
+                          required={false}
+                          schema={
+                            Object {
+                              "anyOf": Array [
+                                Object {
+                                  "enum": Array [
+                                    "3",
+                                  ],
+                                  "title": "Лучшее оформление фасада",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "4",
+                                  ],
+                                  "title": "Лучшее оформление дворовой территории",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "5",
+                                  ],
+                                  "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "6",
+                                  ],
+                                  "title": "Самая оригинальная цветочная композиция",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "7",
+                                  ],
+                                  "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "10",
+                                  ],
+                                  "title": "Лучший цветочный кадр в городской среде",
+                                  "type": "string",
+                                },
+                                Object {
+                                  "enum": Array [
+                                    "null",
+                                  ],
+                                  "title": "Все номинации",
+                                  "type": "string",
+                                },
+                              ],
+                              "title": "Выбор номинации",
+                              "type": "string",
+                            }
+                          }
+                          uiSchema={
+                            Object {
+                              "classNames": "form_input_competition",
+                              "ui:options": Object {
+                                "inline": true,
+                              },
+                              "ui:widget": "select",
+                            }
+                          }
+                        >
+                          <WrapIfAdditional
+                            classNames="form-group field field-string  form_input_competition"
+                            description={
+                              <DescriptionField
+                                formContext={Object {}}
+                                id="root_competition__description"
+                              />
+                            }
+                            disabled={false}
+                            displayLabel={true}
+                            errors={<ErrorList />}
+                            fields={
+                              Object {
+                                "AnyOfField": [Function],
+                                "ArrayField": [Function],
+                                "BooleanField": [Function],
+                                "DescriptionField": [Function],
+                                "NullField": [Function],
+                                "NumberField": [Function],
+                                "ObjectField": [Function],
+                                "OneOfField": [Function],
+                                "SchemaField": [Function],
+                                "StringField": [Function],
+                                "TitleField": [Function],
+                                "UnsupportedField": [Function],
+                              }
+                            }
+                            formContext={Object {}}
+                            help={<Help />}
+                            hidden={false}
+                            id="root_competition"
+                            label="Выбор номинации"
+                            onDropPropertyClick={[Function]}
+                            onKeyChange={[Function]}
+                            readonly={false}
+                            required={false}
+                            schema={
+                              Object {
+                                "anyOf": Array [
+                                  Object {
+                                    "enum": Array [
+                                      "3",
+                                    ],
+                                    "title": "Лучшее оформление фасада",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "4",
+                                    ],
+                                    "title": "Лучшее оформление дворовой территории",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "5",
+                                    ],
+                                    "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "6",
+                                    ],
+                                    "title": "Самая оригинальная цветочная композиция",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "7",
+                                    ],
+                                    "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "10",
+                                    ],
+                                    "title": "Лучший цветочный кадр в городской среде",
+                                    "type": "string",
+                                  },
+                                  Object {
+                                    "enum": Array [
+                                      "null",
+                                    ],
+                                    "title": "Все номинации",
+                                    "type": "string",
+                                  },
+                                ],
+                                "title": "Выбор номинации",
+                                "type": "string",
+                              }
+                            }
+                            uiSchema={
+                              Object {
+                                "classNames": "form_input_competition",
+                                "ui:options": Object {
+                                  "inline": true,
+                                },
+                                "ui:widget": "select",
+                              }
+                            }
+                          >
+                            <div
+                              className="form-group field field-string  form_input_competition"
+                            >
+                              <Label
+                                id="root_competition"
+                                label="Выбор номинации"
+                                required={false}
+                              >
+                                <label
+                                  className="control-label"
+                                  htmlFor="root_competition"
+                                >
+                                  Выбор номинации
+                                </label>
+                              </Label>
+                              <DescriptionField
+                                formContext={Object {}}
+                                id="root_competition__description"
+                              />
+                              <StringField
+                                autofocus={false}
+                                disabled={false}
+                                errorSchema={Object {}}
+                                formContext={Object {}}
+                                idSchema={
+                                  Object {
+                                    "$id": "root_competition",
+                                  }
+                                }
+                                name="competition"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onDropPropertyClick={[Function]}
+                                onFocus={[Function]}
+                                onKeyChange={[Function]}
+                                readonly={false}
+                                registry={
+                                  Object {
+                                    "ArrayFieldTemplate": undefined,
+                                    "FieldTemplate": undefined,
+                                    "ObjectFieldTemplate": undefined,
+                                    "definitions": Object {},
+                                    "fields": Object {
+                                      "AnyOfField": [Function],
+                                      "ArrayField": [Function],
+                                      "BooleanField": [Function],
+                                      "DescriptionField": [Function],
+                                      "NullField": [Function],
+                                      "NumberField": [Function],
+                                      "ObjectField": [Function],
+                                      "OneOfField": [Function],
+                                      "SchemaField": [Function],
+                                      "StringField": [Function],
+                                      "TitleField": [Function],
+                                      "UnsupportedField": [Function],
+                                    },
+                                    "formContext": Object {},
+                                    "widgets": Object {
+                                      "AltDateTimeWidget": [Function],
+                                      "AltDateWidget": [Function],
+                                      "BaseInput": [Function],
+                                      "CheckboxWidget": [Function],
+                                      "CheckboxesWidget": [Function],
+                                      "ColorWidget": [Function],
+                                      "DateTimeWidget": [Function],
+                                      "DateWidget": [Function],
+                                      "EmailWidget": [Function],
+                                      "FileWidget": [Function],
+                                      "HiddenWidget": [Function],
+                                      "PasswordWidget": [Function],
+                                      "RadioWidget": [Function],
+                                      "RangeWidget": [Function],
+                                      "SelectWidget": [Function],
+                                      "TextWidget": [Function],
+                                      "TextareaWidget": [Function],
+                                      "URLWidget": [Function],
+                                      "UpDownWidget": [Function],
+                                    },
+                                  }
+                                }
+                                required={false}
+                                schema={
+                                  Object {
+                                    "anyOf": Array [
+                                      Object {
+                                        "enum": Array [
+                                          "3",
+                                        ],
+                                        "title": "Лучшее оформление фасада",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "4",
+                                        ],
+                                        "title": "Лучшее оформление дворовой территории",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "5",
+                                        ],
+                                        "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "6",
+                                        ],
+                                        "title": "Самая оригинальная цветочная композиция",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "7",
+                                        ],
+                                        "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "10",
+                                        ],
+                                        "title": "Лучший цветочный кадр в городской среде",
+                                        "type": "string",
+                                      },
+                                      Object {
+                                        "enum": Array [
+                                          "null",
+                                        ],
+                                        "title": "Все номинации",
+                                        "type": "string",
+                                      },
+                                    ],
+                                    "title": "Выбор номинации",
+                                    "type": "string",
+                                  }
+                                }
+                                uiSchema={
+                                  Object {
+                                    "classNames": undefined,
+                                    "ui:options": Object {
+                                      "inline": true,
+                                    },
+                                    "ui:widget": "select",
+                                  }
+                                }
+                                wasPropertyKeyModified={false}
+                              >
+                                <Component
+                                  autofocus={false}
+                                  disabled={false}
+                                  formContext={Object {}}
+                                  id="root_competition"
+                                  label="Выбор номинации"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onFocus={[Function]}
+                                  options={
+                                    Object {
+                                      "enumOptions": Array [
+                                        Object {
+                                          "label": "Лучшее оформление фасада",
+                                          "value": "3",
+                                        },
+                                        Object {
+                                          "label": "Лучшее оформление дворовой территории",
+                                          "value": "4",
+                                        },
+                                        Object {
+                                          "label": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                          "value": "5",
+                                        },
+                                        Object {
+                                          "label": "Самая оригинальная цветочная композиция",
+                                          "value": "6",
+                                        },
+                                        Object {
+                                          "label": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                          "value": "7",
+                                        },
+                                        Object {
+                                          "label": "Лучший цветочный кадр в городской среде",
+                                          "value": "10",
+                                        },
+                                        Object {
+                                          "label": "Все номинации",
+                                          "value": "null",
+                                        },
+                                      ],
+                                      "inline": true,
+                                    }
+                                  }
+                                  placeholder=""
+                                  readonly={false}
+                                  registry={
+                                    Object {
+                                      "ArrayFieldTemplate": undefined,
+                                      "FieldTemplate": undefined,
+                                      "ObjectFieldTemplate": undefined,
+                                      "definitions": Object {},
+                                      "fields": Object {
+                                        "AnyOfField": [Function],
+                                        "ArrayField": [Function],
+                                        "BooleanField": [Function],
+                                        "DescriptionField": [Function],
+                                        "NullField": [Function],
+                                        "NumberField": [Function],
+                                        "ObjectField": [Function],
+                                        "OneOfField": [Function],
+                                        "SchemaField": [Function],
+                                        "StringField": [Function],
+                                        "TitleField": [Function],
+                                        "UnsupportedField": [Function],
+                                      },
+                                      "formContext": Object {},
+                                      "widgets": Object {
+                                        "AltDateTimeWidget": [Function],
+                                        "AltDateWidget": [Function],
+                                        "BaseInput": [Function],
+                                        "CheckboxWidget": [Function],
+                                        "CheckboxesWidget": [Function],
+                                        "ColorWidget": [Function],
+                                        "DateTimeWidget": [Function],
+                                        "DateWidget": [Function],
+                                        "EmailWidget": [Function],
+                                        "FileWidget": [Function],
+                                        "HiddenWidget": [Function],
+                                        "PasswordWidget": [Function],
+                                        "RadioWidget": [Function],
+                                        "RangeWidget": [Function],
+                                        "SelectWidget": [Function],
+                                        "TextWidget": [Function],
+                                        "TextareaWidget": [Function],
+                                        "URLWidget": [Function],
+                                        "UpDownWidget": [Function],
+                                      },
+                                    }
+                                  }
+                                  required={false}
+                                  schema={
+                                    Object {
+                                      "anyOf": Array [
+                                        Object {
+                                          "enum": Array [
+                                            "3",
+                                          ],
+                                          "title": "Лучшее оформление фасада",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "4",
+                                          ],
+                                          "title": "Лучшее оформление дворовой территории",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "5",
+                                          ],
+                                          "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "6",
+                                          ],
+                                          "title": "Самая оригинальная цветочная композиция",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "7",
+                                          ],
+                                          "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "10",
+                                          ],
+                                          "title": "Лучший цветочный кадр в городской среде",
+                                          "type": "string",
+                                        },
+                                        Object {
+                                          "enum": Array [
+                                            "null",
+                                          ],
+                                          "title": "Все номинации",
+                                          "type": "string",
+                                        },
+                                      ],
+                                      "title": "Выбор номинации",
+                                      "type": "string",
+                                    }
+                                  }
+                                >
+                                  <SelectWidget
+                                    autofocus={false}
+                                    disabled={false}
+                                    formContext={Object {}}
+                                    id="root_competition"
+                                    label="Выбор номинации"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    options={
+                                      Object {
+                                        "enumOptions": Array [
+                                          Object {
+                                            "label": "Лучшее оформление фасада",
+                                            "value": "3",
+                                          },
+                                          Object {
+                                            "label": "Лучшее оформление дворовой территории",
+                                            "value": "4",
+                                          },
+                                          Object {
+                                            "label": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                            "value": "5",
+                                          },
+                                          Object {
+                                            "label": "Самая оригинальная цветочная композиция",
+                                            "value": "6",
+                                          },
+                                          Object {
+                                            "label": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                            "value": "7",
+                                          },
+                                          Object {
+                                            "label": "Лучший цветочный кадр в городской среде",
+                                            "value": "10",
+                                          },
+                                          Object {
+                                            "label": "Все номинации",
+                                            "value": "null",
+                                          },
+                                        ],
+                                        "inline": true,
+                                      }
+                                    }
+                                    placeholder=""
+                                    readonly={false}
+                                    registry={
+                                      Object {
+                                        "ArrayFieldTemplate": undefined,
+                                        "FieldTemplate": undefined,
+                                        "ObjectFieldTemplate": undefined,
+                                        "definitions": Object {},
+                                        "fields": Object {
+                                          "AnyOfField": [Function],
+                                          "ArrayField": [Function],
+                                          "BooleanField": [Function],
+                                          "DescriptionField": [Function],
+                                          "NullField": [Function],
+                                          "NumberField": [Function],
+                                          "ObjectField": [Function],
+                                          "OneOfField": [Function],
+                                          "SchemaField": [Function],
+                                          "StringField": [Function],
+                                          "TitleField": [Function],
+                                          "UnsupportedField": [Function],
+                                        },
+                                        "formContext": Object {},
+                                        "widgets": Object {
+                                          "AltDateTimeWidget": [Function],
+                                          "AltDateWidget": [Function],
+                                          "BaseInput": [Function],
+                                          "CheckboxWidget": [Function],
+                                          "CheckboxesWidget": [Function],
+                                          "ColorWidget": [Function],
+                                          "DateTimeWidget": [Function],
+                                          "DateWidget": [Function],
+                                          "EmailWidget": [Function],
+                                          "FileWidget": [Function],
+                                          "HiddenWidget": [Function],
+                                          "PasswordWidget": [Function],
+                                          "RadioWidget": [Function],
+                                          "RangeWidget": [Function],
+                                          "SelectWidget": [Function],
+                                          "TextWidget": [Function],
+                                          "TextareaWidget": [Function],
+                                          "URLWidget": [Function],
+                                          "UpDownWidget": [Function],
+                                        },
+                                      }
+                                    }
+                                    required={false}
+                                    schema={
+                                      Object {
+                                        "anyOf": Array [
+                                          Object {
+                                            "enum": Array [
+                                              "3",
+                                            ],
+                                            "title": "Лучшее оформление фасада",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "4",
+                                            ],
+                                            "title": "Лучшее оформление дворовой территории",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "5",
+                                            ],
+                                            "title": "Лучшее оформление прилегающей территории для организаций и предприятий",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "6",
+                                            ],
+                                            "title": "Самая оригинальная цветочная композиция",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "7",
+                                            ],
+                                            "title": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "10",
+                                            ],
+                                            "title": "Лучший цветочный кадр в городской среде",
+                                            "type": "string",
+                                          },
+                                          Object {
+                                            "enum": Array [
+                                              "null",
+                                            ],
+                                            "title": "Все номинации",
+                                            "type": "string",
+                                          },
+                                        ],
+                                        "title": "Выбор номинации",
+                                        "type": "string",
+                                      }
+                                    }
+                                  >
+                                    <select
+                                      autoFocus={false}
+                                      className="form-control"
+                                      disabled={false}
+                                      id="root_competition"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      required={false}
+                                      value=""
+                                    >
+                                      <option
+                                        value=""
+                                      />
+                                      <option
+                                        key="0"
+                                        value="3"
+                                      >
+                                        Лучшее оформление фасада
+                                      </option>
+                                      <option
+                                        key="1"
+                                        value="4"
+                                      >
+                                        Лучшее оформление дворовой территории
+                                      </option>
+                                      <option
+                                        key="2"
+                                        value="5"
+                                      >
+                                        Лучшее оформление прилегающей территории для организаций и предприятий
+                                      </option>
+                                      <option
+                                        key="3"
+                                        value="6"
+                                      >
+                                        Самая оригинальная цветочная композиция
+                                      </option>
+                                      <option
+                                        key="4"
+                                        value="7"
+                                      >
+                                        Лучшее оформление территории, прилегающей к образовательному учреждению
+                                      </option>
+                                      <option
+                                        key="5"
+                                        value="10"
+                                      >
+                                        Лучший цветочный кадр в городской среде
+                                      </option>
+                                      <option
+                                        key="6"
+                                        value="null"
+                                      >
+                                        Все номинации
+                                      </option>
+                                    </select>
+                                  </SelectWidget>
+                                </Component>
+                              </StringField>
+                              <ErrorList />
+                              <Help />
+                            </div>
+                          </WrapIfAdditional>
+                        </DefaultTemplate>
+                      </SchemaField>
+                    </fieldset>
+                  </DefaultObjectFieldTemplate>
+                </ObjectField>
+                <ErrorList />
+                <Help />
+              </div>
+            </WrapIfAdditional>
+          </DefaultTemplate>
+        </SchemaField>
+        <div
+          className="border-button"
+        >
+          <Button
+            gold={true}
+            large={true}
+          >
+            <button
+              className="button button_gold large"
+            >
+              Искать
+            </button>
+          </Button>
+        </div>
+      </form>
+    </Form>
+  </FilterForm>,
+  <StartPageComponent
+    onClickRequest={[Function]}
+    onPageChange={[Function]}
+    search={Object {}}
+  >
+    <h1>
+      Error retrieving news stories! — 
+      Network error: No more mocked responses for the query: query StartPage($search: String, $sort: Sorting, $competitionId: Int, $page: Int) {
+  startPage(search: $search, sort: $sort, competitionId: $competitionId, page: $page) {
+    pagesCount
+    requests {
+      ...RequestParts
+    }
+    winnersPreviousYear {
+      competition {
+        id
+        name
+      }
+      id
+      request {
+        ...RequestParts
+      }
+    }
+  }
+}
+
+fragment RequestParts on Request {
+  address
+  comment
+  competition {
+    id
+    kind
+    name
+  }
+  description
+  id
+  participant {
+    id
+    kind
+    name
+    user {
+      id
+      email
+      name
+      phone
+      remainVoices
+      roles
+      surname
+    }
+  }
+  photos {
+    id
+  }
+  state
+  voicesCount
+  createdAt
+  year
+}
+, variables: {"search":null,"sort":null,"competitionId":null,"page":null}
+    </h1>
+  </StartPageComponent>,
+  <SectionRules
+    competitions={
+      Array [
+        Object {
+          "id": 3,
+          "kind": "open",
+          "name": "Лучшее оформление фасада",
+        },
+        Object {
+          "id": 4,
+          "kind": "open",
+          "name": "Лучшее оформление дворовой территории",
+        },
+        Object {
+          "id": 5,
+          "kind": "open",
+          "name": "Лучшее оформление прилегающей территории для организаций и предприятий",
+        },
+        Object {
+          "id": 6,
+          "kind": "open",
+          "name": "Самая оригинальная цветочная композиция",
+        },
+        Object {
+          "id": 7,
+          "kind": "open",
+          "name": "Лучшее оформление территории, прилегающей к образовательному учреждению",
+        },
+        Object {
+          "id": 10,
+          "kind": "open",
+          "name": "Лучший цветочный кадр в городской среде",
+        },
+      ]
+    }
+  >
+    <section>
+      <RuleText>
+        <div
+          className="col-md-10 rules"
+        >
+          <h2
+            className="section_title"
+          >
+            ДАВАЙТЕ УКРАСИМ КАЗАНЬ ВМЕСТЕ!
+          </h2>
+          <p
+            className="section_text"
+          >
+            Преследуя важную задачу вовлечения населения в процесс благоустройства и озеленения нашего города, мы приглашаем Вас принять участие в конкурсе «Цветущая Казань» и вместе с нами преобразить и украсить нашу столицу.
+          </p>
+          <p
+            className="section_text"
+          >
+            Вам предоставляется возможность своими руками, проявив фантазию и воображение, создать красивую фасадную композицию, будь то клумба, палисадник или цветочное оформление территории. Также Вы можете применить свое фото-мастерство и оригинальность и участвовать в данном конкурсе в категории «Лучший цветочный кадр».
+          </p>
+        </div>
+        <div
+          className="col-md-10 rules"
+        >
+          <h2
+            className="section_title"
+          >
+            ПРАВИЛА КОНКУРСА
+          </h2>
+          <p
+            className="section_text"
+          >
+            Из перечня всех предлагаемых номинаций, находящихся на нашем сайте, Вы сможете выбрать любую, которая Вам по душе и непосредственно подходящую для Ваших условий, места проживания и территориального расположения. Далее Вам будет необходимо выполнить соответствующие действия для создания композиции или цветочного оформления, сделать несколько фотографий своего готового объекта и прикрепить к
+             
+            <a
+              href="/#section-send-request"
+            >
+              заявке участника
+            </a>
+            , которую также можно найти на сайте нашего конкурса. После одобрения конкурсной комиссией заявки, за неё можно будет проголосовать, но вносить в неё изменения будет уже невозможно.
+          </p>
+          <p
+            className="section_text"
+          >
+            Оценка участников будет осуществляется посредством народного голосования, главным жюри которого станут жители и гости города Казань. Вы сможете отслеживать количество набранных Вами голосов и всегда быть в курсе происходящего.
+          </p>
+          <p
+            className="section_text"
+          >
+            Стоит отметить, что участниками Конкурса, помимо жителей Казани, могут стать разного рода предприятия, организации, а также учреждения различных организационно-правовых форм. Словом – все те, кто хочет внести свой бесценный вклад в улучшение внешнего облика нашего города.
+          </p>
+          <p
+            className="section_text"
+          >
+            Подводить итоги голосования будет городская конкурсная комиссия, которая и определит впоследствии победителей конкурса. Авторы лучших работ станут обладателями ценных призов и подарков. Желаем успехов!
+          </p>
+        </div>
+      </RuleText>
+      <div
+        className="row rules_shedule"
+      >
+        <div
+          className="col-md-10 shedule_svg"
+        >
+          <img
+            alt="shedule"
+            className="img-fluid"
+            src="../../images/shedule_svg.svg"
+          />
+        </div>
+      </div>
+      <div
+        className="row rules_nominations"
+      >
+        <div
+          className="col-md-10 nominations"
+        >
+          <h3
+            className="nomination_subtitle"
+          >
+            Конкурс проводится по следующим номинациям:
+          </h3>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-6 rules_nominations_wrapper"
+              key="3"
+            >
+              <span
+                className="nominations_list"
+              >
+                Лучшее оформление фасада
+              </span>
+            </div>
+            <div
+              className="col-md-6 rules_nominations_wrapper"
+              key="4"
+            >
+              <span
+                className="nominations_list"
+              >
+                Лучшее оформление дворовой территории
+              </span>
+            </div>
+            <div
+              className="col-md-6 rules_nominations_wrapper"
+              key="5"
+            >
+              <span
+                className="nominations_list"
+              >
+                Лучшее оформление прилегающей территории для организаций и предприятий
+              </span>
+            </div>
+            <div
+              className="col-md-6 rules_nominations_wrapper"
+              key="6"
+            >
+              <span
+                className="nominations_list"
+              >
+                Самая оригинальная цветочная композиция
+              </span>
+            </div>
+            <div
+              className="col-md-6 rules_nominations_wrapper"
+              key="7"
+            >
+              <span
+                className="nominations_list"
+              >
+                Лучшее оформление территории, прилегающей к образовательному учреждению
+              </span>
+            </div>
+            <div
+              className="col-md-6 rules_nominations_wrapper"
+              key="10"
+            >
+              <span
+                className="nominations_list"
+              >
+                Лучший цветочный кадр в городской среде
+              </span>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div
+        className="row rules_promo"
+      >
+        <div
+          className="col-md-6 promo"
+        >
+          <h3>
+            Оценка участников Конкурса по соответствующим номинациям осуществляется народным голосованием среди жителей и гостей города Казань
+          </h3>
+        </div>
+      </div>
+    </section>
+  </SectionRules>,
+  <SectionForParticipant
+    currentUser={
+      Object {
+        "email": "lol.tebeb@n.ru",
+        "id": 258,
+        "name": "Одобрен",
+        "participant": Object {
+          "name": "ООО УК \\"ЖКХ ДЕРБЫШКИ\\"",
+          "request": Object {
+            "address": "Батурина 18п",
+            "competition": Object {
+              "name": "Лучшие цветы на районе",
+            },
+            "description": "Почему белые розы похожи на пелемени?",
+            "participant": Object {
+              "name": "ООО УК \\"ЖКХ ДЕРБЫШКИ\\"",
+            },
+            "photos": Array [
+              Object {
+                "address": "https://i.pinimg.com/originals/e7/a9/a1/e7a9a19464b5768887c4dbb9b0b09119.gif",
+                "id": 1,
+              },
+              Object {
+                "address": "http://cloudmind.info/wp-content/uploads/2014/12/blue-water-lily-flower-flowers-hd-wallpaper-beautiful-gallery-hd1.jpg",
+                "id": 2,
+              },
+              Object {
+                "address": "https://www.madeira-web.com/images/latest-news/festaflor19-a.jpg",
+                "id": 3,
+              },
+              Object {
+                "address": "http://cloudmind.info/wp-content/uploads/2014/12/blue-water-lily-flower-flowers-hd-wallpaper-beautiful-gallery-hd1.jpg",
+                "id": 4,
+              },
+            ],
+            "state": "approved",
+          },
+        },
+        "phone": "8-987-2222-33-44",
+        "remainVoices": 7,
+        "roles": Array [
+          "member",
+        ],
+        "surname": "Зубенко",
+        "voices": Array [
+          117,
+          54,
+          200,
+          693,
+        ],
+      }
+    }
+  >
+    <section
+      className="row section_for_participant"
+    >
+      <ApprovalRequestTitle
+        state="approved"
+      >
+        <div
+          className="col-11 col-md-8"
+        >
+          <h2
+            className="section_for_participant_title"
+          >
+            Ваша заявка принята!
+          </h2>
+          <h2
+            className="section_for_participant_title subtitle"
+          >
+            Ваша заявка учавствует в народном голосовании, вы можете посмотреть ее 
+            <a
+              href="#top"
+            >
+              здесь.
+            </a>
+          </h2>
+        </div>
+      </ApprovalRequestTitle>
+      <ApprovalRequestCard
+        request={
+          Object {
+            "address": "Батурина 18п",
+            "competition": Object {
+              "name": "Лучшие цветы на районе",
+            },
+            "description": "Почему белые розы похожи на пелемени?",
+            "participant": Object {
+              "name": "ООО УК \\"ЖКХ ДЕРБЫШКИ\\"",
+            },
+            "photos": Array [
+              Object {
+                "address": "https://i.pinimg.com/originals/e7/a9/a1/e7a9a19464b5768887c4dbb9b0b09119.gif",
+                "id": 1,
+              },
+              Object {
+                "address": "http://cloudmind.info/wp-content/uploads/2014/12/blue-water-lily-flower-flowers-hd-wallpaper-beautiful-gallery-hd1.jpg",
+                "id": 2,
+              },
+              Object {
+                "address": "https://www.madeira-web.com/images/latest-news/festaflor19-a.jpg",
+                "id": 3,
+              },
+              Object {
+                "address": "http://cloudmind.info/wp-content/uploads/2014/12/blue-water-lily-flower-flowers-hd-wallpaper-beautiful-gallery-hd1.jpg",
+                "id": 4,
+              },
+            ],
+            "state": "approved",
+          }
+        }
+      >
+        <div
+          className="col-11 col-md-5 approval_request_card"
+        >
+          <div
+            className="approval_header approval_header_succes"
+          >
+            <span>
+              Лучшие цветы на районе
+            </span>
+          </div>
+          <div
+            className="row cell_card"
+          >
+            <div
+              className="col-3"
+            >
+              Автор:
+            </div>
+            <div
+              className="col-9"
+            >
+              <strong>
+                ООО УК "ЖКХ ДЕРБЫШКИ"
+              </strong>
+            </div>
+          </div>
+          <hr
+            className="dashed_hr"
+          />
+          <div
+            className="row cell_card"
+          >
+            <div
+              className="col-3"
+            >
+              Адрес:
+            </div>
+            <div
+              className="col-9"
+            >
+              <strong>
+                Батурина 18п
+              </strong>
+            </div>
+          </div>
+          <hr
+            className="dashed_hr"
+          />
+          <div
+            className="row cell_card"
+          >
+            <div
+              className="col-3"
+            >
+              Описание:
+            </div>
+            <div
+              className="col-9"
+            >
+              <strong>
+                Почему белые розы похожи на пелемени?
+              </strong>
+            </div>
+          </div>
+          <div
+            className="row photos_request_card"
+          >
+            <div
+              className="col-12 col-md-4 photos_request_card_img"
+              key="1"
+            >
+              <img
+                alt=""
+                src="https://i.pinimg.com/originals/e7/a9/a1/e7a9a19464b5768887c4dbb9b0b09119.gif"
+              />
+            </div>
+            <div
+              className="col-12 col-md-4 photos_request_card_img"
+              key="2"
+            >
+              <img
+                alt=""
+                src="http://cloudmind.info/wp-content/uploads/2014/12/blue-water-lily-flower-flowers-hd-wallpaper-beautiful-gallery-hd1.jpg"
+              />
+            </div>
+            <div
+              className="col-12 col-md-4 photos_request_card_img"
+              key="3"
+            >
+              <img
+                alt=""
+                src="https://www.madeira-web.com/images/latest-news/festaflor19-a.jpg"
+              />
+            </div>
+            <div
+              className="col-12 col-md-4 photos_request_card_img"
+              key="4"
+            >
+              <img
+                alt=""
+                src="http://cloudmind.info/wp-content/uploads/2014/12/blue-water-lily-flower-flowers-hd-wallpaper-beautiful-gallery-hd1.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </ApprovalRequestCard>
+    </section>
+  </SectionForParticipant>,
+]
+`;

@@ -1,0 +1,28 @@
+query StartPage(
+  $search: String
+  $sort: Sorting
+  $competitionId: Int
+  $page: Int
+) {
+  startPage(
+    search: $search
+    sort: $sort
+    competitionId: $competitionId
+    page: $page
+  ) {
+    pagesCount
+    requests {
+      ...RequestParts
+    }
+    winnersPreviousYear {
+      competition {
+        id
+        name
+      }
+      id
+      request {
+        ...RequestParts
+      }
+    }
+  }
+}

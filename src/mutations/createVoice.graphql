@@ -1,0 +1,5 @@
+mutation createVoice($requestId: Int!) {
+  createVoice(requestId: $requestId) {
+    id
+  }
+}

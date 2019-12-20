@@ -1,0 +1,62 @@
+label {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.react-dadata react-dadata__container {
+  position: relative;
+}
+
+.react-dadata__suggestions {
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  color: black;
+  //width: 100%;
+}
+
+form.rjsf {
+  background-color: #034f84;
+  fieldset {
+    border: none;
+    label {
+      color: white;
+    }
+    .errors {
+      color: white;
+    }
+    .radio {
+      display: inline-block;
+    }
+  }
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea,
+select,
+.react-dadata__input {
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  transition-property: border-color, background-color;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  box-shadow: none;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-color: #cccccc;
+  width: 100%;
+}

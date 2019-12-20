@@ -1,0 +1,5 @@
+mutation destroyVoice($voiceId: Int!) {
+  destroyVoice(voiceId: $voiceId) {
+    resolve
+  }
+}

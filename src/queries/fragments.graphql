@@ -1,0 +1,38 @@
+fragment RequestParts on Request {
+  address
+  comment
+  competition {
+    id
+    kind
+    name
+  }
+  coordinate {
+    id
+    latitude
+    longitude
+    requestId
+  }
+  description
+  id
+  participant {
+    id
+    kind
+    name
+    user {
+      id
+      email
+      name
+      phone
+      remainVoices
+      roles
+      surname
+    }
+  }
+  photos {
+    id
+  }
+  state
+  voicesCount
+  createdAt
+  year
+}

@@ -1,0 +1,10 @@
+.rjsf_dropzone {
+  padding: 0 40px;
+  height: auto;
+  // background-color: #fff;
+  & > div > fieldset {
+    display: flex;
+    flex-flow: column;
+    padding-top: 10px;
+  }
+}

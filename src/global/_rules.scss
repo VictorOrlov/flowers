@@ -1,0 +1,102 @@
+%mmj {
+  max-width: 75rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.rules {
+  width: 80%;
+  padding-top: 6rem;
+  margin: 0 auto;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
+  color: #656565;
+}
+// Rule Deadlines
+.rules_shedule {
+  @extend %mmj;
+  .shedule_svg {
+    width: 100%;
+    // img {
+    //   width: 100%;
+    //   height: auto;
+    // }
+    // .shedule_small {
+    //   display: none;
+    //   width: 100%;
+    //   height: auto;
+    //   margin: 0 auto;
+    // }
+  }
+}
+.rules_nominations {
+  @extend %mmj;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
+  color: #656565;
+  .nominations {
+    margin-bottom: 2.5rem;
+  }
+  hr {
+    // max-width: 100%;
+    width: 100%;
+    border-bottom: 1px dashed #cccccc;
+    margin: 1rem 0;
+  }
+}
+.nomination_subtitle {
+  margin-bottom: 2.5rem;
+  font-weight: normal;
+  font-size: 1.18rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.rules_nominations_wrapper {
+  height: auto;
+  margin: 10px 0;
+  span:before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.875rem;
+    margin-left: -1.875rem;
+    display: inline-block;
+    $color: rgba(247, 120, 107, 1);
+    background-image: url("data:image/svg+xml, %3Csvg%20viewBox%3D%220%200%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M11.533%2010.25c7.14%202.215%204.878-9.806-.88-4.732-.284.25-.377.196-.125-.122C15.252-.59%203.425-2.72%206.043%204.904c.062.18.003.203-.095.032-4.09-7.168-9.945%204.528-2.027%204.16.333-.014.354.067.033.145-7.544%201.833%202.058%2010.915%203.263%203.336.057-.353.102-.3.114.08.23%207.134%2010.183%201.15%204.164-2.26-.362-.206-.356-.267.04-.145zm-1.328-1.665l-.012.086c-.032.218-.227.37-.434.336L9.09%208.9c-.208-.032-.276.085-.152.262l.403.573c.125.177.09.428-.08.558l-.066.052c-.168.13-.408.092-.532-.084L8.26%209.69c-.125-.177-.252-.144-.284.074l-.1.703c-.032.217-.227.368-.434.336l-.082-.012c-.207-.033-.35-.238-.32-.455l.102-.703c.03-.218-.08-.29-.25-.158l-.545.422c-.17.13-.408.093-.533-.084l-.05-.07c-.123-.177-.087-.428.082-.56l.545-.42c.17-.13.138-.265-.07-.298l-.67-.106c-.206-.033-.35-.237-.32-.454l.013-.086c.032-.217.227-.368.434-.336l.67.107c.207.032.275-.085.15-.262l-.402-.573c-.124-.177-.088-.428.08-.558l.067-.052c.168-.13.408-.092.532.084l.403.573c.124.176.25.143.282-.075l.1-.703c.032-.218.227-.368.434-.336l.08.013c.21.032.352.237.32.454l-.1.703c-.03.218.08.29.25.158l.545-.422c.168-.13.407-.093.532.084l.05.07c.123.177.087.428-.082.558l-.545.423c-.17.13-.137.264.07.297l.67.106c.207.033.35.238.32.455z%22%20fill%3D%22#{$color}%22%2F%3E%3C%2Fsvg%3E%0A");
+  }
+}
+
+.rules_promo {
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
+  color: #656565;
+  @extend %mmj;
+  .promo {
+    h3 {
+      padding-top: 2.75rem;
+      padding-bottom: 3.75rem;
+      font-size: 1rem;
+      font-weight: normal;
+      line-height: 2rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .rules {
+    width: 100%;
+  }
+  .shedule_svg {
+    .shedule_normal {
+      display: none;
+    }
+    .shedule_small {
+      display: inline-block !important;
+    }
+  }
+  .rules_nominations_wrapper {
+    padding-left: 15%;
+  }
+}

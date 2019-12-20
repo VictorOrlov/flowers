@@ -1,0 +1,27 @@
+mutation editRequest(
+  $address: String
+  $competition: String
+  $description: String
+  $email: String
+  $participantName: String
+  $phone: String
+  $photos: [String!]
+  $longitude: Float
+  $latitude: Float
+) {
+  editRequest(
+    address: $address
+    competition: $competition
+    description: $description
+    email: $email
+    participantName: $participantName
+    phone: $phone
+    photos: $photos
+    longitude: $longitude
+    latitude: $latitude
+  ) {
+    request {
+      ...RequestParts
+    }
+  }
+}

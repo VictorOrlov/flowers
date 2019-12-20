@@ -1,0 +1,68 @@
+query User($search: String, $sort: Sorting, $competitionId: Int, $page: Int) {
+  startPage(
+    search: $search
+    sort: $sort
+    competitionId: $competitionId
+    page: $page
+  ) {
+    user {
+      id
+      email
+      name
+      surname
+      participant {
+        id
+        kind
+        name
+        request {
+          address
+          comment
+          competition {
+            id
+            kind
+            name
+          }
+          coordinate {
+            id
+            latitude
+            longitude
+            requestId
+          }
+          description
+          id
+          participant {
+            id
+            kind
+            name
+            user {
+              id
+              email
+              name
+              phone
+              remainVoices
+              roles
+              surname
+            }
+          }
+          photos {
+            id
+            url
+          }
+          state
+          voicesCount
+          createdAt
+          year
+        }
+      }
+      phone
+      remainVoices
+      voices {
+        id
+        request {
+          id
+        }
+      }
+      roles
+    }
+  }
+}

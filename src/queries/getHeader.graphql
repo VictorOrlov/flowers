@@ -1,0 +1,11 @@
+query Header($search: String, $sort: Sorting, $competitionId: Int, $page: Int) {
+  startPage(
+    search: $search
+    sort: $sort
+    competitionId: $competitionId
+    page: $page
+  ) {
+    requestsCount
+    voicesCount
+  }
+}

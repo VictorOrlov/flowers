@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correct value remainVoices in TopBar remainVoices = 7 1`] = `
+<header>
+  <Link
+    to="/"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <div
+        className="gerb_header"
+      >
+        <img
+          alt="gerb"
+          src="gerb.svg"
+        />
+      </div>
+    </a>
+  </Link>
+  <div
+    className="last"
+  >
+    <span
+      className="last_userName"
+    >
+      Одобрен
+      : 
+    </span>
+    <span
+      className="last_userRemainVoices"
+    >
+      7
+    </span>
+  </div>
+</header>
+`;

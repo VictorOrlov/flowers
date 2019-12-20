@@ -1,0 +1,240 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-bottom: 1px solid #000000;
+  div.gerb_header {
+    margin: 10px auto 15px auto;
+    height: 3rem;
+    width: 3rem;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  div.last {
+    margin-right: 60px;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    color: #656565b0;
+    font-weight: 700;
+    font-size: 0.9rem;
+    .last_userRemainVoices {
+      padding-left: 2rem;
+      &:before {
+        content: "";
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.875rem;
+        display: inline-block;
+        $color: rgba(247, 120, 107, 1);
+        background-image: url("data:image/svg+xml, %3Csvg%20viewBox%3D%220%200%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M11.533%2010.25c7.14%202.215%204.878-9.806-.88-4.732-.284.25-.377.196-.125-.122C15.252-.59%203.425-2.72%206.043%204.904c.062.18.003.203-.095.032-4.09-7.168-9.945%204.528-2.027%204.16.333-.014.354.067.033.145-7.544%201.833%202.058%2010.915%203.263%203.336.057-.353.102-.3.114.08.23%207.134%2010.183%201.15%204.164-2.26-.362-.206-.356-.267.04-.145zm-1.328-1.665l-.012.086c-.032.218-.227.37-.434.336L9.09%208.9c-.208-.032-.276.085-.152.262l.403.573c.125.177.09.428-.08.558l-.066.052c-.168.13-.408.092-.532-.084L8.26%209.69c-.125-.177-.252-.144-.284.074l-.1.703c-.032.217-.227.368-.434.336l-.082-.012c-.207-.033-.35-.238-.32-.455l.102-.703c.03-.218-.08-.29-.25-.158l-.545.422c-.17.13-.408.093-.533-.084l-.05-.07c-.123-.177-.087-.428.082-.56l.545-.42c.17-.13.138-.265-.07-.298l-.67-.106c-.206-.033-.35-.237-.32-.454l.013-.086c.032-.217.227-.368.434-.336l.67.107c.207.032.275-.085.15-.262l-.402-.573c-.124-.177-.088-.428.08-.558l.067-.052c.168-.13.408-.092.532.084l.403.573c.124.176.25.143.282-.075l.1-.703c.032-.218.227-.368.434-.336l.08.013c.21.032.352.237.32.454l-.1.703c-.03.218.08.29.25.158l.545-.422c.168-.13.407-.093.532.084l.05.07c.123.177.087.428-.082.558l-.545.423c-.17.13-.137.264.07.297l.67.106c.207.033.35.238.32.455z%22%20fill%3D%22#{$color}%22%2F%3E%3C%2Fsvg%3E%0A");
+      }
+    }
+  }
+  a {
+    margin: 0 auto;
+  }
+  @media (max-width: 576px) {
+    flex-flow: column;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+}
+
+.section_wrapper {
+  width: 100%;
+  @include flexCenter;
+  min-height: 850px;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  div.row {
+    padding-top: 30px;
+    width: 90%;
+    margin: 0;
+  }
+}
+
+.logo_column {
+  padding-top: 30px;
+  text-align: center;
+  div.logo_svg {
+    height: 70%;
+  }
+  div.logo_text {
+    margin-top: 2rem;
+    height: 30%;
+  }
+  img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.vote_column {
+  @include flexCenter;
+  text-transform: uppercase;
+  background-color: rgba(253, 251, 252, 0.9);
+  .vote {
+    text-align: center;
+    .vote_title {
+      color: #dd4132;
+      font-size: 1.6rem;
+      line-height: 1.34;
+      font-weight: normal;
+      font-family: "OpenSansLight", "Helvetica Neue", "Open Sans", Helvetica,
+        Roboto, Arial, sans-serif;
+    }
+    .vote_counter {
+      color: #f7786b;
+      font-size: 4rem;
+      font-weight: bold;
+      letter-spacing: 1.06px;
+      font-family: "OpenSansBold", "Arial Black", Arial, sans-serif;
+    }
+    .vote_unit {
+      font-size: 1.1875rem;
+      font-family: "OpenSansSemiBold", "Helvetica Neue", "Open Sans", Helvetica,
+        Roboto, Arial, sans-serif;
+      text-transform: uppercase;
+      color: #656565;
+    }
+    .new_nomination {
+      margin-top: 30px;
+      padding: 1rem;
+      text-align: center;
+      & ~ .new_nomination {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.mayor_column {
+  margin-top: 30px;
+  width: 90%;
+  background-color: rgba(253, 251, 252, 0.9);
+  .mayor_card {
+    display: flex;
+    flex-flow: row;
+    .mayor_img {
+      height: 6rem;
+      width: 6rem;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .mayor_name {
+      text-transform: uppercase;
+      padding-top: 5px;
+      padding-left: 5px;
+      h3 {
+        font-family: "OpenSansSemiBold", "Helvetica Neue", "Open Sans",
+          Helvetica, Roboto, Arial, sans-serif;
+        font-size: 1.1875rem;
+        line-height: 1.75rem;
+        color: #dd4132;
+        margin: 0;
+      }
+      h3:last-child {
+        font-size: 1.4375rem;
+      }
+      h4 {
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.87);
+        margin-top: 0;
+        font-family: "OpenSansLight", "Helvetica Neue", "Open Sans", Helvetica,
+          Roboto, Arial, sans-serif;
+        font-weight: normal;
+      }
+    }
+  }
+
+  p.mayor_text {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial,
+      sans-serif;
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.375rem;
+    text-align: justify;
+  }
+}
+
+.btn_admin {
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 576px) {
+  header {
+    div.gerb_header {
+      height: 2rem;
+      width: 2rem;
+      margin: 0;
+    }
+    div.last {
+      .last_userName {
+        display: none;
+      }
+    }
+  }
+
+  .section_wrapper {
+    margin-top: 3em;
+    background-image: url("../images/bg-small.jpg");
+    background-position: center 174px;
+    div.row {
+      width: 90%;
+    }
+  }
+
+  .logo_column {
+    padding: 0 20px;
+  }
+
+  .vote_column {
+    text-align: center;
+    .vote {
+      .vote_title {
+        font-size: 1rem;
+        color: #656565;
+      }
+      .vote_counter {
+        font-size: 2rem;
+      }
+      .vote_unit {
+        display: block;
+        font-size: 0.9rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .mayor_column {
+    margin-top: 200px;
+    .mayor_card {
+      .mayor_img {
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+  }
+}
