@@ -174,7 +174,7 @@
     "react-yandex-share": "^1.0.5",
     "recharts": "^1.8.5",
     "subscriptions-transport-ws": "^0.9.16",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "utf-8-validate": "^5.0.2"
   },
   "jest": {
